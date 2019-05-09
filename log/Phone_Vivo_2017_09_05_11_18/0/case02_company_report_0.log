@@ -1,0 +1,36 @@
+09-05 11:16:36.244 base_testcase.java testcases.case02_company_report 123  - Enter Testcase : case02_company_report
+09-05 11:16:36.342 module.java Phone.Phone_Vivo 1299 - Try to Wake up the phone.
+09-05 11:16:37.344 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-05 11:16:37.345 base_testcase.java testcases.case02_company_report 125  - The Phone is Phone_Vivo
+09-05 11:16:37.346 case02_company_report.java testcases.case02_company_report 21   - Now is running function '模糊匹配_test'
+09-05 11:16:37.348 base_phone.java Phone.Phone_Vivo 76   - ******** 企业报告测试 ********
+09-05 11:16:37.349 module.java Modules.Videos 59   - apk name is '万象信用'
+09-05 11:16:40.647 module.java Modules.Videos 1210 - Try to scroll to the text of '万象信用'
+09-05 11:16:40.725 module.java Modules.Videos 63   - find is false
+09-05 11:16:42.125 module.java Modules.Videos 69   - finally find apk,click it
+09-05 11:16:42.466 module.java Modules.Videos 176  - Try to click a UiObject.
+09-05 11:16:43.467 module.java Modules.Videos 107  - Wait for 1 seconds.
+09-05 11:16:48.469 module.java Modules.Videos 107  - Wait for 5 seconds.
+09-05 11:16:48.501 module.java Modules.Videos 1223 - Try get packagename of this view :com.ccx.zhengxin
+09-05 11:16:48.501 module.java Modules.Videos 93   - The package name is correct. this apk is running correctly.
+09-05 11:16:50.545 module.java Modules.Videos 139  - Try to click the button 'first_page' 
+09-05 11:16:51.547 module.java Modules.Videos 107  - Wait for 1 seconds.
+09-05 11:16:52.004 module.java Modules.Videos 139  - Try to click the button 'company' 
+09-05 11:16:53.006 module.java Modules.Videos 107  - Wait for 1 seconds.
+09-05 11:16:55.915 module.java Modules.Videos 196  - Try to write '中诚信征信' in button :search
+09-05 11:16:55.995 module.java Phone.Phone_Vivo 1167 - Try to check if the button 'match1' is exist, and result is true.
+09-05 11:16:55.999 base_phone.java Phone.Phone_Vivo 83   - 检测模糊匹配项成功
+09-05 11:16:56.001 module.java Modules.Videos 50   - The 'match1' is not in config map.
+09-05 11:16:56.002 base_testcase.java testcases.case02_company_report 75   - This is run error.
+09-05 11:16:56.003 base_testcase.java testcases.case02_company_report 233  - Screenshot-->./Phone_Vivo/0/case02_company_report_0.png
+09-05 11:16:56.397 UiDevice.java uiautomatorrpc.UiDevice 321  - @@@@@@@ result is : /data/local/tmp/Screenshot.png
+09-05 11:16:56.630 UiDevice.java uiautomatorrpc.UiDevice 325  - @@@@@@@@ adb command is : adb  -s U4J7Y5BANV8POF95 pull /data/local/tmp/Screenshot.png "./log/Phone_Vivo/0/\case02_company_report_0.png"
+09-05 11:16:57.859 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-05 11:16:57.860 base_testcase.java testcases.case02_company_report 239  - Screenshot saved.
+09-05 11:16:57.892 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+09-05 11:16:58.893 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-05 11:16:58.952 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+09-05 11:16:59.954 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-05 11:17:00.261 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+09-05 11:17:01.262 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-05 11:17:01.481 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).

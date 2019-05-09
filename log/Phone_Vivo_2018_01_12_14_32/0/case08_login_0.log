@@ -1,0 +1,46 @@
+10-19 12:05:46.678 base_testcase.java testcases.case08_login 123  - Enter Testcase : case08_login
+10-19 12:05:46.884 module.java Phone.Phone_Vivo 1299 - Try to Wake up the phone.
+10-19 12:05:47.885 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-19 12:05:47.887 base_testcase.java testcases.case08_login 125  - The Phone is Phone_Vivo
+10-19 12:05:47.888 case08_login.java testcases.case08_login 21   - Now is running function '信用卡TOP5_test'
+10-19 12:05:47.890 base_phone.java Phone.Phone_Vivo 186  - ******** 登陆测试 ********
+10-19 12:05:47.892 module.java Modules.Videos 59   - apk name is '万象信用'
+10-19 12:05:48.565 module.java Modules.Videos 1210 - Try to scroll to the text of '万象信用'
+10-19 12:05:49.095 module.java Modules.Videos 63   - find is true
+10-19 12:05:49.096 module.java Modules.Videos 77   - Click open apk
+10-19 12:05:52.351 module.java Modules.Videos 176  - Try to click a UiObject.
+10-19 12:05:57.352 module.java Modules.Videos 107  - Wait for 5 seconds.
+10-19 12:05:57.409 module.java Modules.Videos 1223 - Try get packagename of this view :com.ccx.zhengxin
+10-19 12:05:57.410 module.java Modules.Videos 93   - The package name is correct. this apk is running correctly.
+10-19 12:06:16.488 module.java Modules.Videos 139  - Try to click the button 'fourth_page' 
+10-19 12:06:17.490 module.java Modules.Videos 107  - Wait for 1 seconds.
+10-19 12:06:17.939 module.java Modules.Videos 139  - Try to click the button 'login' 
+10-19 12:06:18.943 module.java Modules.Videos 107  - Wait for 1 seconds.
+10-19 12:06:24.745 module.java Modules.Videos 1167 - Try to check if the button 'enter' is exist, and result is true.
+10-19 12:06:40.220 module.java Modules.Videos 308  - Try to clear text field of button 'username'.
+10-19 12:06:52.269 module.java Modules.Videos 196  - Try to write '15092269471' in button :username
+10-19 12:07:00.428 module.java Modules.Videos 196  - Try to write 'test123' in button :password
+10-19 12:07:04.453 module.java Modules.Videos 139  - Try to click the button 'enter' 
+10-19 12:07:05.455 module.java Modules.Videos 107  - Wait for 1 seconds.
+10-19 12:07:11.348 module.java Modules.Videos 1167 - Try to check if the button 'account' is exist, and result is true.
+10-19 12:07:13.942 base_phone.java Phone.Phone_Vivo 196  - 登陆成功
+10-19 12:07:21.069 base_testcase.java testcases.case08_login 169  - case08_login : file './log/Phone_Vivo/xml/case08_login_cycle_0.xml' is not exist, create it.
+10-19 12:07:21.086 base_testcase.java testcases.case08_login 145  - Let phone back to home view.
+10-19 12:07:23.088 module.java Phone.Phone_Vivo 107  - Wait for 2 seconds.
+10-19 12:07:23.101 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+10-19 12:07:24.104 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-19 12:07:24.251 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+10-19 12:07:25.252 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-19 12:07:25.268 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+10-19 12:07:26.270 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-19 12:07:26.293 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+10-19 12:07:27.296 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-19 12:07:27.317 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+10-19 12:07:28.321 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-19 12:07:28.339 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+10-19 12:07:29.341 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-19 12:07:29.396 module.java Phone.Phone_Vivo 1223 - Try get packagename of this view :com.anddoes.launcher
+10-19 12:07:29.444 module.java Phone.Phone_Vivo 1234 - Try to press home(use keycode).
+10-19 12:07:29.445 test1.java Test.test1 160  - TestCase : 'case08_login' is SUCCESS!
+10-19 12:07:29.446 test1.java Test.test1 161  - TEST_TOP : case08_login set_times is 1 case_times is 1
+10-19 12:07:29.446 test1.java Test.test1 163  - TEST_TOP : case 'case08_login' all finished. now gen html file.

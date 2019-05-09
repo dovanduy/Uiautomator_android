@@ -1,0 +1,19 @@
+10-12 16:34:44.445 base_testcase.java testcases.case02_company_report 123  - Enter Testcase : case02_company_report
+10-12 16:34:44.558 module.java Phone.Phone_Vivo 1299 - Try to Wake up the phone.
+10-12 16:34:45.560 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-12 16:34:45.562 base_testcase.java testcases.case02_company_report 125  - The Phone is Phone_Vivo
+10-12 16:34:45.563 case02_company_report.java testcases.case02_company_report 21   - Now is running function '企业报告_test'
+10-12 16:34:45.564 base_phone.java Phone.Phone_Vivo 76   - ******** 企业报告测试 ********
+10-12 16:34:45.566 module.java Modules.Videos 59   - apk name is '万象信用'
+10-12 16:34:45.752 module.java Modules.Videos 1210 - Try to scroll to the text of '万象信用'
+10-12 16:34:45.804 module.java Modules.Videos 63   - find is true
+10-12 16:34:45.805 module.java Modules.Videos 77   - Click open apk
+10-12 16:34:46.086 module.java Modules.Videos 176  - Try to click a UiObject.
+10-12 16:34:51.088 module.java Modules.Videos 107  - Wait for 5 seconds.
+10-12 16:34:51.229 module.java Modules.Videos 1223 - Try get packagename of this view :com.ccx.zhengxin
+10-12 16:34:51.231 module.java Modules.Videos 93   - The package name is correct. this apk is running correctly.
+10-12 16:34:53.246 module.java Modules.Videos 139  - Try to click the button 'first_page' 
+10-12 16:34:54.248 module.java Modules.Videos 107  - Wait for 1 seconds.
+10-12 16:34:54.816 module.java Modules.Videos 139  - Try to click the button 'company' 
+10-12 16:34:57.817 module.java Modules.Videos 107  - Wait for 3 seconds.
+10-12 16:35:16.847 module.java Modules.Videos 196  - Try to write '中诚信征信' in button :search

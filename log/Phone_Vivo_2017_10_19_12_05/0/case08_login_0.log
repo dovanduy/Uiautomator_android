@@ -1,0 +1,7 @@
+10-19 12:04:35.785 base_testcase.java testcases.case08_login 123  - Enter Testcase : case08_login
+10-19 12:04:36.846 module.java Phone.Phone_Vivo 1301 - Wake up the phone failed.
+10-19 12:04:36.847 base_testcase.java testcases.case08_login 75   - This is run error.
+10-19 12:04:36.847 base_testcase.java testcases.case08_login 233  - Screenshot-->./Phone_Vivo/0/case08_login_0.png
+10-19 12:04:37.851 module.java Phone.Phone_Vivo 1406 - !!! Can't take screen shot !!!
+10-19 12:04:38.853 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-19 12:04:38.854 base_testcase.java testcases.case08_login 239  - Screenshot saved.

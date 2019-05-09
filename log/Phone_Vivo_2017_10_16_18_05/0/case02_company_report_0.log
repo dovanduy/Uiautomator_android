@@ -1,0 +1,21 @@
+10-16 18:04:13.190 base_testcase.java testcases.case02_company_report 123  - Enter Testcase : case02_company_report
+10-16 18:04:13.346 module.java Phone.Phone_Vivo 1299 - Try to Wake up the phone.
+10-16 18:04:14.346 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-16 18:04:14.349 base_testcase.java testcases.case02_company_report 125  - The Phone is Phone_Vivo
+10-16 18:04:14.350 case02_company_report.java testcases.case02_company_report 21   - Now is running function '企业报告_test'
+10-16 18:04:14.350 base_phone.java Phone.Phone_Vivo 76   - ******** 企业报告测试 ********
+10-16 18:04:14.350 module.java Modules.Videos 59   - apk name is '万象信用'
+10-16 18:04:27.042 module.java Modules.Videos 1210 - Try to scroll to the text of '万象信用'
+10-16 18:04:27.099 module.java Modules.Videos 63   - find is false
+10-16 18:04:27.350 module.java Modules.Videos 74   - open-apk : 0
+10-16 18:04:28.412 module.java Modules.Videos 74   - open-apk : 1
+10-16 18:04:28.756 module.java Modules.Videos 74   - open-apk : 2
+10-16 18:04:28.929 module.java Modules.Videos 74   - open-apk : 3
+10-16 18:04:29.179 module.java Modules.Videos 74   - open-apk : 4
+10-16 18:04:29.366 module.java Modules.Videos 74   - open-apk : 5
+10-16 18:04:29.726 module.java Modules.Videos 74   - open-apk : 6
+10-16 18:04:29.949 module.java Modules.Videos 74   - open-apk : 7
+10-16 18:04:30.121 module.java Modules.Videos 74   - open-apk : 8
+10-16 18:04:30.464 module.java Modules.Videos 74   - open-apk : 9
+10-16 18:04:31.448 module.java Modules.Videos 74   - open-apk : 10
+10-16 18:04:32.079 module.java Modules.Videos 74   - open-apk : 11

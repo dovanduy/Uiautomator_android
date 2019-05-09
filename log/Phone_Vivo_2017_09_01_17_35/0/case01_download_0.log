@@ -1,0 +1,23 @@
+09-01 17:34:27.832 base_testcase.java testcases.case01_download 123  - Enter Testcase : case01_download
+09-01 17:34:27.920 module.java Phone.Phone_Vivo 1299 - Try to Wake up the phone.
+09-01 17:34:28.929 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-01 17:34:28.931 base_testcase.java testcases.case01_download 125  - The Phone is Phone_Vivo
+09-01 17:34:28.932 case01_download.java testcases.case01_download 21   - Now is running function '版本升级_test'
+09-01 17:34:28.933 base_phone.java Phone.Phone_Vivo 45   - ******** 版本升级测试 ********
+09-01 17:34:28.934 module.java Modules.Videos 59   - apk name is '万象信用'
+09-01 17:34:48.031 base_testcase.java testcases.case01_download 123  - Enter Testcase : case01_download
+09-01 17:34:48.141 module.java Phone.Phone_Vivo 1299 - Try to Wake up the phone.
+09-01 17:34:49.155 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-01 17:34:49.155 base_testcase.java testcases.case01_download 125  - The Phone is Phone_Vivo
+09-01 17:34:49.156 case01_download.java testcases.case01_download 21   - Now is running function '版本升级_test'
+09-01 17:34:49.156 base_phone.java Phone.Phone_Vivo 45   - ******** 版本升级测试 ********
+09-01 17:34:49.157 module.java Modules.Videos 59   - apk name is '万象信用'
+09-01 17:34:49.302 module.java Modules.Videos 1210 - Try to scroll to the text of '万象信用'
+09-01 17:34:49.377 module.java Modules.Videos 63   - find is true
+09-01 17:34:49.377 module.java Modules.Videos 77   - Click open apk
+09-01 17:34:49.757 module.java Modules.Videos 176  - Try to click a UiObject.
+09-01 17:34:54.763 module.java Modules.Videos 107  - Wait for 5 seconds.
+09-01 17:34:55.299 module.java Modules.Videos 1223 - Try get packagename of this view :com.ccx.zhengxin
+09-01 17:34:55.300 module.java Modules.Videos 93   - The package name is correct. this apk is running correctly.
+09-01 17:34:55.368 module.java Modules.Videos 1167 - Try to check if the button 'upload' is exist, and result is true.
+09-01 17:34:57.597 module.java Modules.Videos 139  - Try to click the button 'upload' 

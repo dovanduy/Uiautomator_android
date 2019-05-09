@@ -1,0 +1,13 @@
+09-01 17:19:33.646 base_testcase.java testcases.case01_download 123  - Enter Testcase : case01_download
+09-01 17:19:33.735 module.java Phone.Phone_Vivo 1318 - Try to Wake up the phone.
+09-01 17:19:34.742 module.java Phone.Phone_Vivo 126  - Wait for 1 seconds.
+09-01 17:19:35.148 module.java Phone.Phone_Vivo 1338 - Try to swipe.
+09-01 17:19:36.157 module.java Phone.Phone_Vivo 126  - Wait for 1 seconds.
+09-01 17:19:36.158 base_testcase.java testcases.case01_download 127  - The Phone is Phone_Vivo
+09-01 17:19:36.160 case01_download.java testcases.case01_download 21   - Now is running function '版本升级_test'
+09-01 17:19:36.161 base_phone.java Phone.Phone_Vivo 45   - ******** 版本升级测试 ********
+09-01 17:19:57.221 module.java Modules.Videos 59   - apk name is '万象信用'
+09-01 17:19:59.446 module.java Modules.Videos 1229 - Try to scroll to the text of '万象信用'
+09-01 17:20:05.693 module.java Modules.Videos 63   - find is true
+09-01 17:20:10.509 module.java Modules.Videos 93   - Click open apk
+09-01 17:20:12.899 module.java Modules.Videos 195  - Try to click a UiObject.

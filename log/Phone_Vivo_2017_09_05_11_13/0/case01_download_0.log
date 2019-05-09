@@ -1,0 +1,44 @@
+09-04 18:10:01.974 base_testcase.java testcases.case01_download 123  - Enter Testcase : case01_download
+09-04 18:10:02.068 module.java Phone.Phone_Vivo 1299 - Try to Wake up the phone.
+09-04 18:10:03.068 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-04 18:10:03.070 base_testcase.java testcases.case01_download 125  - The Phone is Phone_Vivo
+09-04 18:10:03.071 case01_download.java testcases.case01_download 21   - Now is running function '版本升级_test'
+09-04 18:10:03.072 base_phone.java Phone.Phone_Vivo 46   - ******** 版本升级测试 ********
+09-04 18:10:03.073 module.java Modules.Videos 59   - apk name is '万象信用'
+09-04 18:10:06.374 module.java Modules.Videos 1210 - Try to scroll to the text of '万象信用'
+09-04 18:10:06.416 module.java Modules.Videos 63   - find is false
+09-04 18:10:07.699 module.java Modules.Videos 69   - finally find apk,click it
+09-04 18:10:07.989 module.java Modules.Videos 176  - Try to click a UiObject.
+09-04 18:10:08.990 module.java Modules.Videos 107  - Wait for 1 seconds.
+09-04 18:10:13.991 module.java Modules.Videos 107  - Wait for 5 seconds.
+09-04 18:10:14.011 module.java Modules.Videos 1223 - Try get packagename of this view :com.ccx.zhengxin
+09-04 18:10:14.011 module.java Modules.Videos 93   - The package name is correct. this apk is running correctly.
+09-04 18:10:14.059 module.java Modules.Videos 1167 - Try to check if the button 'upload' is exist, and result is true.
+09-04 18:10:15.809 module.java Modules.Videos 139  - Try to click the button 'upload' 
+09-04 18:10:35.809 module.java Modules.Videos 107  - Wait for 20 seconds.
+09-04 18:10:36.337 module.java Modules.Videos 1167 - Try to check if the button 'ok1' is exist, and result is false.
+09-04 18:10:46.338 module.java Phone.Phone_Vivo 107  - Wait for 10 seconds.
+09-04 18:10:47.039 module.java Modules.Videos 139  - Try to click the button 'ok1' 
+09-04 18:10:48.040 module.java Modules.Videos 107  - Wait for 1 seconds.
+09-04 18:10:50.428 module.java Modules.Videos 139  - Try to click the button 'install' 
+09-04 18:11:04.431 module.java Modules.Videos 107  - Wait for 14 seconds.
+09-04 18:11:04.717 module.java Modules.Videos 139  - Try to click the button 'open' 
+09-04 18:11:05.569 module.java Modules.Videos 1167 - Try to check if the button 'allow' is exist, and result is true.
+09-04 18:11:06.518 module.java Modules.Videos 139  - Try to click the button 'allow' 
+09-04 18:11:11.520 module.java Modules.Videos 107  - Wait for 5 seconds.
+09-04 18:11:11.640 module.java Phone.Phone_Vivo 1309 - Try to click @(263,1240)
+09-04 18:11:12.221 module.java Modules.Videos 1167 - Try to check if the button 'second_page' is exist, and result is true.
+09-04 18:11:12.222 base_phone.java Phone.Phone_Vivo 64   - 升级版本成功
+09-04 18:11:12.225 base_testcase.java testcases.case01_download 169  - case01_download : file './log/Phone_Vivo/xml/case01_download_cycle_0.xml' is not exist, create it.
+09-04 18:11:12.240 base_testcase.java testcases.case01_download 145  - Let phone back to home view.
+09-04 18:11:14.242 module.java Phone.Phone_Vivo 107  - Wait for 2 seconds.
+09-04 18:11:14.563 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+09-04 18:11:15.565 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-04 18:11:15.731 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+09-04 18:11:16.734 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-04 18:11:16.798 module.java Phone.Phone_Vivo 1223 - Try get packagename of this view :com.bbk.launcher2
+09-04 18:11:16.799 base_testcase.java testcases.case01_download 151  - ERROR: press BACK cannot exit.
+09-04 18:11:16.800 base_testcase.java testcases.case01_download 110  - This is ending error.
+09-04 18:11:16.800 test1.java Test.test1 182  - TestCase : 'case01_download' is SUCCESS!
+09-04 18:11:16.801 test1.java Test.test1 183  - TEST_TOP : case01_download set_times is 1 case_times is 1
+09-04 18:11:16.802 test1.java Test.test1 185  - TEST_TOP : case 'case01_download' all finished. now gen html file.

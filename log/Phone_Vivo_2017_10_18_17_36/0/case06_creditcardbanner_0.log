@@ -1,0 +1,25 @@
+10-18 17:30:44.332 base_testcase.java testcases.case06_creditcardbanner 123  - Enter Testcase : case06_creditcardbanner
+10-18 17:30:44.412 module.java Phone.Phone_Vivo 1299 - Try to Wake up the phone.
+10-18 17:30:45.413 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-18 17:30:45.414 base_testcase.java testcases.case06_creditcardbanner 125  - The Phone is Phone_Vivo
+10-18 17:30:45.415 case06_creditcardbanner.java testcases.case06_creditcardbanner 21   - Now is running function '信用卡banner_test'
+10-18 17:30:45.415 base_phone.java Phone.Phone_Vivo 159  - ******** 信用卡banner测试 ********
+10-18 17:30:45.416 module.java Modules.Videos 59   - apk name is '万象信用'
+10-18 17:30:45.478 module.java Modules.Videos 1210 - Try to scroll to the text of '万象信用'
+10-18 17:30:45.544 module.java Modules.Videos 63   - find is true
+10-18 17:30:45.545 module.java Modules.Videos 77   - Click open apk
+10-18 17:30:45.959 module.java Modules.Videos 176  - Try to click a UiObject.
+10-18 17:30:50.960 module.java Modules.Videos 107  - Wait for 5 seconds.
+10-18 17:30:51.005 module.java Modules.Videos 1223 - Try get packagename of this view :com.ccx.zhengxin
+10-18 17:30:51.005 module.java Modules.Videos 93   - The package name is correct. this apk is running correctly.
+10-18 17:30:53.283 module.java Modules.Videos 139  - Try to click the button 'second_page' 
+10-18 17:30:56.960 module.java Modules.Videos 139  - Try to click the button 'creditcard' 
+10-18 17:30:58.328 module.java Modules.Videos 139  - Try to click the button 'creditcard_banner' 
+10-18 17:31:01.330 module.java Modules.Videos 107  - Wait for 3 seconds.
+10-18 17:31:01.396 module.java Modules.Videos 1167 - Try to check if the button 'banner_name' is exist, and result is false.
+10-18 17:31:01.891 module.java Modules.Videos 1167 - Try to check if the button 'banner_name1' is exist, and result is false.
+10-18 17:31:01.892 base_phone.java Phone.Phone_Vivo 166  - 打开信用卡banner页失败
+10-18 17:31:01.892 base_testcase.java testcases.case06_creditcardbanner 75   - This is run error.
+10-18 17:31:01.892 base_testcase.java testcases.case06_creditcardbanner 233  - Screenshot-->./Phone_Vivo/0/case06_creditcardbanner_0.png
+10-18 17:31:02.099 UiDevice.java uiautomatorrpc.UiDevice 321  - @@@@@@@ result is : /data/local/tmp/Screenshot.png
+10-18 17:31:02.204 UiDevice.java uiautomatorrpc.UiDevice 325  - @@@@@@@@ adb command is : adb  -s emulator-5554 pull /data/local/tmp/Screenshot.png "./log/Phone_Vivo/0/\case06_creditcardbanner_0.png"

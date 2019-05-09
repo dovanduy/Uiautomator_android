@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseSummary><!--This is a summary report of all testcases.--><TestCase><Name>case01_download</Name><Cycle>1</Cycle><Result>Failed</Result><Detail>./html/case01_download_cycle_0.html</Detail></TestCase></TestCaseSummary>

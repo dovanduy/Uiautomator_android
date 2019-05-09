@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="OFF">
+    <appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{MM-dd HH:mm:ss.SSS} %F %logger{40} %-4L - %msg%n"/>
+        </Console>
+        <File name="Seprate" fileName="${sys:filename}.log" >
+            <PatternLayout pattern="%d{MM-dd HH:mm:ss.SSS} %F %logger{40} %-4L - %msg%n"/>
+        </File>
+        <File name="All_detail" fileName="log/all_detail.log">
+            <PatternLayout pattern="%d{MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+    </appenders>
+    <loggers>
+        <root level="trace">
+            <appender-ref ref="Console"/>
+        </root>
+        <logger name="Test" level="info" >
+            <appender-ref ref="Seprate"/>
+            <appender-ref ref="All_detail"/>
+        </logger>
+        <logger name="Modules" level="info" >
+            <appender-ref ref="Seprate"/>
+            <appender-ref ref="All_detail"/>
+        </logger>
+        <logger name="Phone" level="info" >
+            <appender-ref ref="Seprate"/>
+            <appender-ref ref="All_detail"/>
+        </logger>
+        <logger name="testcases" level="info" >
+            <appender-ref ref="Seprate"/>
+            <appender-ref ref="All_detail"/>
+        </logger>
+        <logger name="uiautomatorrpc" level="info" >
+            <appender-ref ref="Seprate"/>
+            <appender-ref ref="All_detail"/>
+        </logger>
+        <logger name="Config" level="info" >
+            <appender-ref ref="Seprate"/>
+            <appender-ref ref="All_detail"/>
+        </logger>
+    </loggers>
+</configuration>

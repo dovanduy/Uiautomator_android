@@ -1,0 +1,15 @@
+10-12 14:55:57.308 base_testcase.java testcases.case05_enforce 123  - Enter Testcase : case05_enforce
+10-12 14:55:57.308 module.java Phone.Phone_Vivo 1299 - Try to Wake up the phone.
+10-12 14:55:58.320 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-12 14:55:58.320 base_testcase.java testcases.case05_enforce 125  - The Phone is Phone_Vivo
+10-12 14:55:58.322 case05_enforce.java testcases.case05_enforce 21   - Now is running function '查被执行人_test'
+10-12 14:55:58.323 base_phone.java Phone.Phone_Vivo 138  - ******** 被执行人测试 ********
+10-12 14:55:58.324 module.java Modules.Videos 59   - apk name is '万象信用'
+10-12 14:56:05.109 module.java Modules.Videos 1210 - Try to scroll to the text of '万象信用'
+10-12 14:56:05.202 module.java Modules.Videos 63   - find is false
+10-12 14:56:05.627 module.java Modules.Videos 74   - open-apk : 0
+10-12 14:56:07.223 module.java Modules.Videos 74   - open-apk : 1
+10-12 14:56:07.659 module.java Modules.Videos 74   - open-apk : 2
+10-12 14:56:09.191 module.java Modules.Videos 74   - open-apk : 3
+10-12 14:56:10.552 module.java Modules.Videos 74   - open-apk : 4
+10-12 14:56:11.612 module.java Modules.Videos 74   - open-apk : 5

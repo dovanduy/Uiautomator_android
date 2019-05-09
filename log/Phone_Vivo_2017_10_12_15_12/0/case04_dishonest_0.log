@@ -1,0 +1,93 @@
+10-12 14:55:23.458 base_testcase.java testcases.case04_dishonest 123  - Enter Testcase : case04_dishonest
+10-12 14:55:23.686 module.java Phone.Phone_Vivo 1299 - Try to Wake up the phone.
+10-12 14:55:24.702 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-12 14:55:24.704 base_testcase.java testcases.case04_dishonest 125  - The Phone is Phone_Vivo
+10-12 14:55:24.706 case04_dishonest.java testcases.case04_dishonest 21   - Now is running function '查失信人_test'
+10-12 14:55:24.707 base_phone.java Phone.Phone_Vivo 117  - ******** 失信人测试 ********
+10-12 14:55:24.707 module.java Modules.Videos 59   - apk name is '万象信用'
+10-12 14:55:28.114 module.java Modules.Videos 1210 - Try to scroll to the text of '万象信用'
+10-12 14:55:28.170 module.java Modules.Videos 63   - find is false
+10-12 14:55:29.561 module.java Modules.Videos 69   - finally find apk,click it
+10-12 14:55:30.013 module.java Modules.Videos 176  - Try to click a UiObject.
+10-12 14:55:31.015 module.java Modules.Videos 107  - Wait for 1 seconds.
+10-12 14:55:36.024 module.java Modules.Videos 107  - Wait for 5 seconds.
+10-12 14:55:36.074 module.java Modules.Videos 1223 - Try get packagename of this view :com.ccx.zhengxin
+10-12 14:55:36.074 module.java Modules.Videos 93   - The package name is correct. this apk is running correctly.
+10-12 14:55:36.433 module.java Modules.Videos 139  - Try to click the button 'first_page' 
+10-12 14:55:37.451 module.java Modules.Videos 107  - Wait for 1 seconds.
+10-12 14:55:38.239 module.java Modules.Videos 139  - Try to click the button 'dishonest' 
+10-12 14:55:39.240 module.java Modules.Videos 107  - Wait for 1 seconds.
+10-12 14:55:42.138 module.java Modules.Videos 196  - Try to write '姚欣' in button :search
+10-12 14:55:42.250 module.java Modules.Videos 1167 - Try to check if the button '0636' is exist, and result is false.
+10-12 14:55:42.250 base_phone.java Phone.Phone_Vivo 132  - 检测模糊匹配项失败
+10-12 14:55:42.250 base_testcase.java testcases.case04_dishonest 75   - This is run error.
+10-12 14:55:42.250 base_testcase.java testcases.case04_dishonest 233  - Screenshot-->./Phone_Vivo/0/case04_dishonest_0.png
+10-12 14:55:42.673 UiDevice.java uiautomatorrpc.UiDevice 321  - @@@@@@@ result is : /data/local/tmp/Screenshot.png
+10-12 14:55:42.751 UiDevice.java uiautomatorrpc.UiDevice 325  - @@@@@@@@ adb command is : adb  -s U4J7Y5BANV8POF95 pull /data/local/tmp/Screenshot.png "./log/Phone_Vivo/0/\case04_dishonest_0.png"
+10-12 14:55:43.889 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-12 14:55:43.889 base_testcase.java testcases.case04_dishonest 239  - Screenshot saved.
+10-12 14:55:43.925 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+10-12 14:55:44.927 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-12 14:55:44.978 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+10-12 14:55:45.979 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-12 14:55:46.020 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+10-12 14:55:47.031 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-12 14:55:47.217 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+10-12 14:55:48.229 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-12 14:55:48.296 module.java Phone.Phone_Vivo 1234 - Try to press home(use keycode).
+10-12 14:55:48.296 base_testcase.java testcases.case04_dishonest 77   - null
+java.lang.Exception
+	at Phone.base_phone.dishonest_test(base_phone.java:133) ~[bin/:?]
+	at testcases.case04_dishonest.during_run(case04_dishonest.java:22) ~[bin/:?]
+	at testcases.base_testcase.run(base_testcase.java:70) [bin/:?]
+	at testcases.base_testcase.process(base_testcase.java:51) [bin/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_101]
+	at Test.test1.run(test1.java:149) [bin/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_101]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit.jar:4.12]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:?]
+10-12 14:55:48.374 base_testcase.java testcases.case04_dishonest 169  - case04_dishonest : file './log/Phone_Vivo/xml/case04_dishonest_cycle_0.xml' is not exist, create it.
+10-12 14:55:48.389 base_testcase.java testcases.case04_dishonest 145  - Let phone back to home view.
+10-12 14:55:50.399 module.java Phone.Phone_Vivo 107  - Wait for 2 seconds.
+10-12 14:55:50.435 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+10-12 14:55:51.449 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-12 14:55:51.468 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+10-12 14:55:52.470 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-12 14:55:52.489 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+10-12 14:55:53.491 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-12 14:55:53.511 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+10-12 14:55:54.512 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-12 14:55:54.547 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+10-12 14:55:55.547 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-12 14:55:55.582 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+10-12 14:55:56.599 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-12 14:55:56.654 module.java Phone.Phone_Vivo 1223 - Try get packagename of this view :com.bbk.launcher2
+10-12 14:55:56.707 module.java Phone.Phone_Vivo 1234 - Try to press home(use keycode).
+10-12 14:55:56.723 test1.java Test.test1 160  - TestCase : 'case04_dishonest' is FAILED!
+10-12 14:55:56.723 test1.java Test.test1 161  - TEST_TOP : case04_dishonest set_times is 1 case_times is 1
+10-12 14:55:56.723 test1.java Test.test1 163  - TEST_TOP : case 'case04_dishonest' all finished. now gen html file.

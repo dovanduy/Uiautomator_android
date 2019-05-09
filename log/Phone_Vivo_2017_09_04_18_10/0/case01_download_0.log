@@ -1,0 +1,35 @@
+09-04 18:07:41.157 base_testcase.java testcases.case01_download 123  - Enter Testcase : case01_download
+09-04 18:07:41.301 module.java Phone.Phone_Vivo 1299 - Try to Wake up the phone.
+09-04 18:07:42.301 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-04 18:07:42.302 base_testcase.java testcases.case01_download 125  - The Phone is Phone_Vivo
+09-04 18:07:42.303 case01_download.java testcases.case01_download 21   - Now is running function '版本升级_test'
+09-04 18:07:42.304 base_phone.java Phone.Phone_Vivo 46   - ******** 版本升级测试 ********
+09-04 18:07:42.305 module.java Modules.Videos 59   - apk name is '万象信用'
+09-04 18:07:45.585 module.java Modules.Videos 1210 - Try to scroll to the text of '万象信用'
+09-04 18:07:45.659 module.java Modules.Videos 63   - find is false
+09-04 18:07:47.020 module.java Modules.Videos 69   - finally find apk,click it
+09-04 18:07:47.309 module.java Modules.Videos 176  - Try to click a UiObject.
+09-04 18:07:48.310 module.java Modules.Videos 107  - Wait for 1 seconds.
+09-04 18:07:53.312 module.java Modules.Videos 107  - Wait for 5 seconds.
+09-04 18:07:53.348 module.java Modules.Videos 1223 - Try get packagename of this view :com.ccx.zhengxin
+09-04 18:07:53.348 module.java Modules.Videos 93   - The package name is correct. this apk is running correctly.
+09-04 18:07:53.398 module.java Modules.Videos 1167 - Try to check if the button 'upload' is exist, and result is true.
+09-04 18:07:55.478 module.java Modules.Videos 139  - Try to click the button 'upload' 
+09-04 18:08:15.479 module.java Modules.Videos 107  - Wait for 20 seconds.
+09-04 18:08:15.517 module.java Modules.Videos 1167 - Try to check if the button 'ok1' is exist, and result is true.
+09-04 18:08:15.909 module.java Modules.Videos 139  - Try to click the button 'ok1' 
+09-04 18:08:16.910 module.java Modules.Videos 107  - Wait for 1 seconds.
+09-04 18:08:19.119 module.java Modules.Videos 139  - Try to click the button 'install' 
+09-04 18:08:33.121 module.java Modules.Videos 107  - Wait for 14 seconds.
+09-04 18:08:33.399 module.java Modules.Videos 139  - Try to click the button 'open' 
+09-04 18:08:37.401 module.java Modules.Videos 107  - Wait for 4 seconds.
+09-04 18:08:37.493 module.java Modules.Videos 1167 - Try to check if the button 'allow' is exist, and result is true.
+09-04 18:08:38.369 module.java Modules.Videos 139  - Try to click the button 'allow' 
+09-04 18:08:39.371 module.java Modules.Videos 107  - Wait for 1 seconds.
+09-04 18:08:39.487 module.java Phone.Phone_Vivo 1309 - Try to click @(263,1240)
+09-04 18:08:40.128 module.java Modules.Videos 1167 - Try to check if the button 'second_page' is exist, and result is false.
+09-04 18:08:40.129 base_phone.java Phone.Phone_Vivo 66   - 升级版本失败
+09-04 18:08:40.130 base_testcase.java testcases.case01_download 75   - This is run error.
+09-04 18:08:40.130 base_testcase.java testcases.case01_download 233  - Screenshot-->./Phone_Vivo/0/case01_download_0.png
+09-04 18:08:41.059 UiDevice.java uiautomatorrpc.UiDevice 321  - @@@@@@@ result is : /data/local/tmp/Screenshot.png
+09-04 18:08:41.290 UiDevice.java uiautomatorrpc.UiDevice 325  - @@@@@@@@ adb command is : adb  -s U4J7Y5BANV8POF95 pull /data/local/tmp/Screenshot.png "./log/Phone_Vivo/0/\case01_download_0.png"

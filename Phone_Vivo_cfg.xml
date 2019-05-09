@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+	<Phone_cfg>
+		<!--This is buttons config in null -->
+		<Widget name="device_id">
+			<!--设备ID -->
+			<Attribute>emulator-5554</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+	</Phone_cfg>
+	<Browser_cfg name="Browser" package="browser" pkg_2="com.android.hplayer">
+		<!--This is buttons config in Browser -->
+	</Browser_cfg>
+	<Calculator_cfg name="Calculator" package="calculator2">
+		<!--This is buttons config in Calculator -->
+	</Calculator_cfg>
+	<Calendar_cfg name="Calendar" package="calendar">
+		<!--This is buttons config in Calendar -->
+	</Calendar_cfg>
+	<Call_cfg name="Phone" package="dialer">
+		<!--This is buttons config in Call -->
+	</Call_cfg>
+	<Camera_cfg name="Camera" package="camera2">
+		<!--This is buttons config in Camera -->
+	</Camera_cfg>
+	<Clock_cfg name="Clock" package="clock">
+		<!--This is buttons config in Clock -->
+	</Clock_cfg>
+	<Contacts_cfg name="Contacts" package="contacts">
+		<!--This is buttons config in Contacts -->
+	</Contacts_cfg>
+	<Downloads_cfg name="Downloads" package="documentsui">
+		<!--This is buttons config in Downloads -->
+	</Downloads_cfg>
+	<Email_cfg name="Email" package="email">
+		<!--This is buttons config in Email -->
+	</Email_cfg>
+	<Files_cfg name="File Explorer" package="fileexplorer">
+		<!--This is buttons config in My Files -->
+	</Files_cfg>
+	<Gallery_cfg name="Gallery" package="gallery3d">
+		<!--This is buttons config in Gallery -->
+	</Gallery_cfg>
+	<Messaging_cfg name="Messaging" package="messaging">
+		<!--This is buttons config in Messaging -->
+	</Messaging_cfg>
+	<Music_cfg name="Music" package="music">
+		<!--This is buttons config in Music -->
+	</Music_cfg>
+	<Recorder_cfg name="Sound Recorder" package="soundrecorder">
+		<!--This is buttons config in Recorder -->
+	</Recorder_cfg>
+	<Settings_cfg name="Settings" package="settings">
+		<!--This is buttons config in Recorder -->
+	</Settings_cfg>
+	<Memo_cfg name="Note" package="note">
+		<!--This is buttons config in Memo -->
+	</Memo_cfg>
+	<Video_cfg name="万象信用" package="zhengxin">
+		<!--This is buttons config in Videos -->
+		<Widget name="upload">
+			<!--升级版本按钮 -->
+			<Attribute>.+upgrade_confirm_btn.*</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="ok1">
+			<!--替换应用中的确定 -->
+			<Attribute>确定</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="install">
+			<!--万象应用安装 -->
+			<Attribute>安装</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="open">
+			<!--万象应用打开 -->
+			<Attribute>打开</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="allow">
+			<!--万象应用权限获取 -->
+			<Attribute>允许</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="first_page">
+			<!--万象应用第一页首页 -->
+			<Attribute>首页</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="second_page">
+			<!--万象应用第二页发现 -->
+			<Attribute>发现</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="third_page">
+			<!--万象应用第三页信用圈 -->
+			<Attribute>信用圈</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="fourth_page">
+			<!--万象应用第四页我的 -->
+			<Attribute>我的</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="company">
+			<!--首页的企业报告 -->
+			<Attribute>企业报告</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="dishonest">
+			<!--首页的查失信人 -->
+			<Attribute>查失信人</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="enforce">
+			<!--首页的被执行人 -->
+			<Attribute>被执行人</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="bank">
+			<!--首页的央行报告 -->
+			<Attribute>央行报告</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="banner">
+			<!-- -->
+			<Attribute>央行报告</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="search">
+			<!--企业报告、失信人、被执行人查询的检索框 -->
+			<Attribute>.+et_search.*</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="match1">
+			<!--中诚信征信对应的模糊匹配结果 -->
+			<Attribute>中诚信征信有限公司</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="match2">
+			<!--中诚信征信对应的高管信息结果 孔令强 -->
+			<Attribute>孔令强</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="match3">
+			<!--作为股东信息中的企业状态 -->
+			<Attribute>吊销企业</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="register">
+			<!--企业报告中的注册信息 -->
+			<Attribute>注册信息</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="credit_code">
+			<!-- ZCX统一社会信用代码-->
+			<Attribute>911100007725523312</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="manager">
+			<!-- 企业报告中的高管信息-->
+			<Attribute>高管信息</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="holder">
+			<!-- 个人报告中 作为股东信息-->
+			<Attribute>作为股东信息</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="0636">
+			<!-- 查失信人、被执行人模糊匹配结果之一-->
+			<Attribute>4401051983****0636</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="dishonest_address">
+			<!-- 查失信人0636中详情信息-->
+			<Attribute>广东</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="enforce_state">
+			<!-- 查被执行人0636中详情信息-->
+			<Attribute>已结案</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="creditcard">
+			<!-- 发现界面的信用卡-->
+			<Attribute>信用卡</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="loan">
+			<!-- 发现界面的借款-->
+			<Attribute>借款</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="creditcard_banner">
+			<!-- 信用卡界面的banner-->
+			<Attribute>.+banner_view</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="loan_banner">
+			<!-- 借款界面的banner-->
+			<Attribute>.+iv_banner</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="banner_name">
+			<!-- 信用卡banner详情中的 姓名/H5第一期-->
+			<Attribute>小信扒一扒</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="banner_name1">
+			<!-- 信用卡banner详情中的 姓名/千面真我-->
+			<Attribute>我有千面 就要不凡</Attribute>
+			<Method_sel>desc</Method_sel>
+		</Widget>
+		<Widget name="banner_phone">
+			<!-- 借款banner详情中的 手机号码/H5第二期-->
+			<Attribute>小信扒一扒</Attribute>
+			<Method_sel>desc</Method_sel>
+		</Widget>
+		<Widget name="creditcard_top5">
+			<!-- 信用卡界面的TOP5-->
+			<Attribute>光大淘票票公仔联名卡</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="loan_top5">
+			<!-- 借款界面的TOP5-->
+			<Attribute>有鱼贷款</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="login">
+			<!-- 我的界面的去登陆-->
+			<Attribute>去登录/注册</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="username">
+			<!-- 账户栏-->
+			<Attribute>.+et_username</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="password">
+			<!-- 密码栏-->
+			<Attribute>.+et_password</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="enter">
+			<!-- 登陆按钮-->
+			<Attribute>登 录</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="account">
+			<!-- 账户栏显示的用户名称-->
+			<Attribute>李帅</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="">
+			<!-- 信用卡界面的卡神点评-->
+			<Attribute>我也要点评</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+	</Video_cfg>
+</root>

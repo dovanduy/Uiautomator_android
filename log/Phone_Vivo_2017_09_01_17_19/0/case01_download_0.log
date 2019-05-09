@@ -1,0 +1,33 @@
+09-01 17:14:16.185 base_testcase.java testcases.case01_download 123  - Enter Testcase : case01_download
+09-01 17:14:16.340 module.java Phone.Phone_Vivo 1321 - Try to Wake up the phone.
+09-01 17:14:17.346 module.java Phone.Phone_Vivo 129  - Wait for 1 seconds.
+09-01 17:14:17.765 module.java Phone.Phone_Vivo 1341 - Try to swipe.
+09-01 17:14:18.777 module.java Phone.Phone_Vivo 129  - Wait for 1 seconds.
+09-01 17:14:18.780 base_testcase.java testcases.case01_download 127  - The Phone is Phone_Vivo
+09-01 17:14:18.781 case01_download.java testcases.case01_download 21   - Now is running function '版本升级_test'
+09-01 17:14:18.784 base_phone.java Phone.Phone_Vivo 45   - ******** 版本升级测试 ********
+09-01 17:14:18.785 module.java Modules.Videos 59   - apk name is '万象信用'
+09-01 17:14:18.936 module.java Modules.Videos 63   - find is false
+09-01 17:14:19.450 module.java Modules.Videos 80   - open-apk : 0
+09-01 17:14:20.009 module.java Modules.Videos 80   - open-apk : 1
+09-01 17:14:20.580 module.java Modules.Videos 80   - open-apk : 2
+09-01 17:14:21.160 module.java Modules.Videos 80   - open-apk : 3
+09-01 17:14:21.760 module.java Modules.Videos 80   - open-apk : 4
+09-01 17:14:22.400 module.java Modules.Videos 80   - open-apk : 5
+09-01 17:14:23.000 module.java Modules.Videos 80   - open-apk : 6
+09-01 17:14:23.569 module.java Modules.Videos 80   - open-apk : 7
+09-01 17:14:24.129 module.java Modules.Videos 80   - open-apk : 8
+09-01 17:14:24.729 module.java Modules.Videos 80   - open-apk : 9
+09-01 17:14:25.339 module.java Modules.Videos 80   - open-apk : 10
+09-01 17:14:25.929 module.java Modules.Videos 80   - open-apk : 11
+09-01 17:14:26.550 module.java Modules.Videos 80   - open-apk : 12
+09-01 17:14:27.130 module.java Modules.Videos 80   - open-apk : 13
+09-01 17:14:27.740 module.java Modules.Videos 80   - open-apk : 14
+09-01 17:14:29.250 module.java Modules.Videos 93   - open-apk : 0
+09-01 17:14:30.721 module.java Modules.Videos 93   - open-apk : 1
+09-01 17:14:32.080 module.java Modules.Videos 93   - open-apk : 2
+09-01 17:14:33.519 module.java Modules.Videos 93   - open-apk : 3
+09-01 17:14:34.853 module.java Modules.Videos 93   - open-apk : 4
+09-01 17:14:36.320 module.java Modules.Videos 93   - open-apk : 5
+09-01 17:14:37.770 module.java Modules.Videos 93   - open-apk : 6
+09-01 17:14:39.289 module.java Modules.Videos 93   - open-apk : 7

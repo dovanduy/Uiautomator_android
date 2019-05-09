@@ -1,0 +1,21 @@
+09-04 17:53:17.147 base_testcase.java testcases.case01_download 123  - Enter Testcase : case01_download
+09-04 17:53:17.228 module.java Phone.Phone_Vivo 1299 - Try to Wake up the phone.
+09-04 17:53:18.229 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-04 17:53:18.231 base_testcase.java testcases.case01_download 125  - The Phone is Phone_Vivo
+09-04 17:53:18.232 case01_download.java testcases.case01_download 21   - Now is running function '版本升级_test'
+09-04 17:53:18.234 base_phone.java Phone.Phone_Vivo 46   - ******** 版本升级测试 ********
+09-04 17:53:18.235 module.java Modules.Videos 59   - apk name is '万象信用'
+09-04 17:53:35.386 module.java Modules.Videos 1210 - Try to scroll to the text of '万象信用'
+09-04 17:53:41.185 module.java Modules.Videos 63   - find is false
+09-04 17:53:51.361 module.java Modules.Videos 69   - finally find apk,click it
+09-04 17:53:52.473 module.java Modules.Videos 176  - Try to click a UiObject.
+09-04 17:53:57.137 module.java Modules.Videos 107  - Wait for 1 seconds.
+09-04 17:54:06.538 module.java Modules.Videos 107  - Wait for 5 seconds.
+09-04 17:54:06.621 module.java Modules.Videos 1223 - Try get packagename of this view :com.ccx.zhengxin
+09-04 17:54:06.622 module.java Modules.Videos 93   - The package name is correct. this apk is running correctly.
+09-04 17:54:08.223 module.java Modules.Videos 1167 - Try to check if the button 'upload' is exist, and result is true.
+09-04 17:54:09.380 module.java Modules.Videos 139  - Try to click the button 'upload' 
+09-04 17:54:24.384 module.java Modules.Videos 107  - Wait for 15 seconds.
+09-04 17:54:26.447 module.java Modules.Videos 1167 - Try to check if the button 'upload' is exist, and result is false.
+09-04 17:54:55.473 module.java Phone.Phone_Vivo 107  - Wait for 10 seconds.
+09-04 17:55:16.329 module.java Phone.Phone_Vivo 50   - The 'install' is not in config map.

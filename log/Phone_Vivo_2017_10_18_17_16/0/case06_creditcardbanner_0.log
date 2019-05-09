@@ -1,0 +1,11 @@
+10-18 17:15:01.109 base_testcase.java testcases.case06_creditcardbanner 123  - Enter Testcase : case06_creditcardbanner
+10-18 17:15:01.221 module.java Phone.Phone_Vivo 1299 - Try to Wake up the phone.
+10-18 17:15:02.222 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-18 17:15:02.223 base_testcase.java testcases.case06_creditcardbanner 125  - The Phone is Phone_Vivo
+10-18 17:15:02.224 case06_creditcardbanner.java testcases.case06_creditcardbanner 21   - Now is running function '信用卡banner_test'
+10-18 17:15:02.225 base_phone.java Phone.Phone_Vivo 159  - ******** 信用卡banner测试 ********
+10-18 17:15:02.226 module.java Modules.Videos 59   - apk name is '万象信用'
+10-18 17:15:02.370 module.java Modules.Videos 1210 - Try to scroll to the text of '万象信用'
+10-18 17:15:02.895 module.java Modules.Videos 63   - find is true
+10-18 17:15:02.897 module.java Modules.Videos 77   - Click open apk
+10-18 17:15:06.150 module.java Modules.Videos 176  - Try to click a UiObject.

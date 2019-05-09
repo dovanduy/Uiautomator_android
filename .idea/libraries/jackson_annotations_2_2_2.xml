@@ -1,0 +1,28 @@
+<component name="libraryTable">
+	<library name="jackson-annotations-2.2.2">
+		<CLASSES>
+			<root
+				url="jar://$PROJECT_DIR$/../UiAutomatorRpc/libs/jackson-annotations-2.2.2.jar!/" />
+			<root
+				url="jar://$PROJECT_DIR$/../UiAutomatorRpc/libs/jackson-core-2.2.2.jar!/" />
+			<root
+				url="jar://$PROJECT_DIR$/../UiAutomatorRpc/libs/jackson-databind-2.2.2.jar!/" />
+			<root
+				url="jar://$PROJECT_DIR$/../UiAutomatorRpc/libs/jsonrpc4j-0.28.jar!/" />
+			<root
+				url="jar://$PROJECT_DIR$/../UiAutomatorRpc/libs/portlet-api-2.0.jar!/" />
+			<root
+				url="jar://$PROJECT_DIR$/../UiAutomatorRpc/libs/servlet-api-2.5.jar!/" />
+			<root url="jar://$PROJECT_DIR$/../user_libs/dom4j-1.6.1.jar!/" />
+			<root url="jar://$PROJECT_DIR$/../user_libs/log4j-core-2.3.jar!/" />
+			<root url="jar://$PROJECT_DIR$/../user_libs/jaxen-1.1.1.jar!/" />
+			<root url="jar://$PROJECT_DIR$/../user_libs/log4j-api-2.3.jar!/" />
+			<root url="jar://$PROJECT_DIR$/../user_libs/robotium-solo-5.2.1.jar!/" />
+		</CLASSES>
+		<JAVADOC>
+			<root
+				url="jar://$PROJECT_DIR$/../user_libs/robotium-solo-5.2.1-javadoc.jar!/" />
+		</JAVADOC>
+		<SOURCES />
+	</library>
+</component>

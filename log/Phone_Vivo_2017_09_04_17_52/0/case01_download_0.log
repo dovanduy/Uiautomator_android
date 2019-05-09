@@ -1,0 +1,20 @@
+09-04 17:50:56.832 base_testcase.java testcases.case01_download 123  - Enter Testcase : case01_download
+09-04 17:50:56.967 module.java Phone.Phone_Vivo 1299 - Try to Wake up the phone.
+09-04 17:50:57.969 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-04 17:50:57.972 base_testcase.java testcases.case01_download 125  - The Phone is Phone_Vivo
+09-04 17:50:57.975 case01_download.java testcases.case01_download 21   - Now is running function '版本升级_test'
+09-04 17:50:57.980 base_phone.java Phone.Phone_Vivo 46   - ******** 版本升级测试 ********
+09-04 17:50:57.984 module.java Modules.Videos 59   - apk name is '万象信用'
+09-04 17:51:11.349 module.java Modules.Videos 1212 - Try to scroll to the text of '万象信用' failed.
+09-04 17:51:11.351 module.java Modules.Videos 81   -  can't find '万象信用' .
+09-04 17:51:11.352 base_testcase.java testcases.case01_download 75   - This is run error.
+09-04 17:51:11.353 base_testcase.java testcases.case01_download 233  - Screenshot-->./Phone_Vivo/0/case01_download_0.png
+09-04 17:51:11.993 UiDevice.java uiautomatorrpc.UiDevice 321  - @@@@@@@ result is : /data/local/tmp/Screenshot.png
+09-04 17:51:12.199 UiDevice.java uiautomatorrpc.UiDevice 325  - @@@@@@@@ adb command is : adb  -s U4J7Y5BANV8POF95 pull /data/local/tmp/Screenshot.png "./log/Phone_Vivo/0/\case01_download_0.png"
+09-04 17:51:13.482 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-04 17:51:13.486 base_testcase.java testcases.case01_download 239  - Screenshot saved.
+09-04 17:51:13.597 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+09-04 17:51:14.599 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-04 17:51:14.656 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+09-04 17:51:15.660 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-04 17:51:15.705 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).

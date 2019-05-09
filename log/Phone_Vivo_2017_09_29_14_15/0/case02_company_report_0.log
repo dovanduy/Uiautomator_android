@@ -1,0 +1,5 @@
+09-29 14:13:55.681 base_testcase.java testcases.case02_company_report 123  - Enter Testcase : case02_company_report
+09-29 14:13:56.766 module.java Phone.Phone_Vivo 1301 - Wake up the phone failed.
+09-29 14:13:56.768 base_testcase.java testcases.case02_company_report 75   - This is run error.
+09-29 14:13:56.769 base_testcase.java testcases.case02_company_report 233  - Screenshot-->./Phone_Vivo/0/case02_company_report_0.png
+09-29 14:13:57.775 module.java Phone.Phone_Vivo 1406 - !!! Can't take screen shot !!!

@@ -1,0 +1,40 @@
+10-18 17:37:45.960 base_testcase.java testcases.case06_creditcardbanner 123  - Enter Testcase : case06_creditcardbanner
+10-18 17:37:46.040 module.java Phone.Phone_Vivo 1299 - Try to Wake up the phone.
+10-18 17:37:47.041 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-18 17:37:47.042 base_testcase.java testcases.case06_creditcardbanner 125  - The Phone is Phone_Vivo
+10-18 17:37:47.043 case06_creditcardbanner.java testcases.case06_creditcardbanner 21   - Now is running function '信用卡banner_test'
+10-18 17:37:47.043 base_phone.java Phone.Phone_Vivo 159  - ******** 信用卡banner测试 ********
+10-18 17:37:47.044 module.java Modules.Videos 59   - apk name is '万象信用'
+10-18 17:37:47.102 module.java Modules.Videos 1210 - Try to scroll to the text of '万象信用'
+10-18 17:37:47.154 module.java Modules.Videos 63   - find is true
+10-18 17:37:47.155 module.java Modules.Videos 77   - Click open apk
+10-18 17:37:48.419 module.java Modules.Videos 176  - Try to click a UiObject.
+10-18 17:37:53.420 module.java Modules.Videos 107  - Wait for 5 seconds.
+10-18 17:37:54.567 module.java Modules.Videos 1223 - Try get packagename of this view :com.ccx.zhengxin
+10-18 17:37:54.568 module.java Modules.Videos 93   - The package name is correct. this apk is running correctly.
+10-18 17:37:55.879 module.java Modules.Videos 139  - Try to click the button 'second_page' 
+10-18 17:37:58.281 module.java Modules.Videos 139  - Try to click the button 'creditcard' 
+10-18 17:37:59.389 module.java Modules.Videos 139  - Try to click the button 'creditcard_banner' 
+10-18 17:38:02.390 module.java Modules.Videos 107  - Wait for 3 seconds.
+10-18 17:38:02.428 module.java Modules.Videos 1167 - Try to check if the button 'banner_name' is exist, and result is true.
+10-18 17:38:02.428 base_phone.java Phone.Phone_Vivo 164  - 打开信用卡banner页成功
+10-18 17:38:02.430 base_testcase.java testcases.case06_creditcardbanner 169  - case06_creditcardbanner : file './log/Phone_Vivo/xml/case06_creditcardbanner_cycle_0.xml' is not exist, create it.
+10-18 17:38:02.446 base_testcase.java testcases.case06_creditcardbanner 145  - Let phone back to home view.
+10-18 17:38:04.447 module.java Phone.Phone_Vivo 107  - Wait for 2 seconds.
+10-18 17:38:04.497 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+10-18 17:38:05.498 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-18 17:38:05.513 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+10-18 17:38:06.515 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-18 17:38:06.719 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+10-18 17:38:07.720 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-18 17:38:07.738 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+10-18 17:38:08.741 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-18 17:38:08.762 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+10-18 17:38:09.766 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-18 17:38:09.775 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+10-18 17:38:10.776 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-18 17:38:10.797 module.java Phone.Phone_Vivo 1223 - Try get packagename of this view :com.anddoes.launcher
+10-18 17:38:10.849 module.java Phone.Phone_Vivo 1234 - Try to press home(use keycode).
+10-18 17:38:10.853 test1.java Test.test1 160  - TestCase : 'case06_creditcardbanner' is SUCCESS!
+10-18 17:38:10.853 test1.java Test.test1 161  - TEST_TOP : case06_creditcardbanner set_times is 1 case_times is 1
+10-18 17:38:10.853 test1.java Test.test1 163  - TEST_TOP : case 'case06_creditcardbanner' all finished. now gen html file.

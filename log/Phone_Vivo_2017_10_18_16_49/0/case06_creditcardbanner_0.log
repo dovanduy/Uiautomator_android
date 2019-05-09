@@ -1,0 +1,72 @@
+10-18 16:48:55.232 base_testcase.java testcases.case06_creditcardbanner 123  - Enter Testcase : case06_creditcardbanner
+10-18 16:48:56.311 module.java Phone.Phone_Vivo 1301 - Wake up the phone failed.
+10-18 16:48:56.313 base_testcase.java testcases.case06_creditcardbanner 75   - This is run error.
+10-18 16:48:56.315 base_testcase.java testcases.case06_creditcardbanner 233  - Screenshot-->./Phone_Vivo/0/case06_creditcardbanner_0.png
+10-18 16:48:57.321 module.java Phone.Phone_Vivo 1406 - !!! Can't take screen shot !!!
+10-18 16:48:58.323 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-18 16:48:58.324 base_testcase.java testcases.case06_creditcardbanner 239  - Screenshot saved.
+10-18 16:48:59.342 module.java Phone.Phone_Vivo 1252 - Try to press back(use keycode) failed.
+10-18 16:48:59.354 base_testcase.java testcases.case06_creditcardbanner 77   - java.net.ConnectException: Connection refused: connect
+java.lang.Exception: java.net.ConnectException: Connection refused: connect
+	at Modules.module.wakup(module.java:1302) ~[bin/:?]
+	at Modules.module.clicks(module.java:125) ~[bin/:?]
+	at testcases.base_testcase.pre_run(base_testcase.java:124) ~[bin/:?]
+	at testcases.base_testcase.run(base_testcase.java:69) [bin/:?]
+	at testcases.base_testcase.process(base_testcase.java:51) [bin/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_101]
+	at Test.test1.run(test1.java:149) [bin/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_101]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit.jar:4.12]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:?]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_101]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_101]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_101]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_101]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_101]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_101]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_101]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_101]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[?:1.8.0_101]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[?:1.8.0_101]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[?:1.8.0_101]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[?:1.8.0_101]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[?:1.8.0_101]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1148) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999) ~[?:1.8.0_101]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933) ~[?:1.8.0_101]
+	at com.googlecode.jsonrpc4j.JsonRpcHttpClient.invoke(JsonRpcHttpClient.java:142) ~[jsonrpc4j-0.28.jar:?]
+	at com.googlecode.jsonrpc4j.JsonRpcHttpClient.invoke(JsonRpcHttpClient.java:178) ~[jsonrpc4j-0.28.jar:?]
+	at com.googlecode.jsonrpc4j.JsonRpcHttpClient.invoke(JsonRpcHttpClient.java:85) ~[jsonrpc4j-0.28.jar:?]
+	at uiautomatorrpc.UiDevice.wakeUp(UiDevice.java:72) ~[bin/:?]
+	at Modules.module.wakup(module.java:1298) ~[bin/:?]
+	... 34 more
+10-18 16:48:59.436 base_testcase.java testcases.case06_creditcardbanner 169  - case06_creditcardbanner : file './log/Phone_Vivo/xml/case06_creditcardbanner_cycle_0.xml' is not exist, create it.
+10-18 16:48:59.459 base_testcase.java testcases.case06_creditcardbanner 145  - Let phone back to home view.

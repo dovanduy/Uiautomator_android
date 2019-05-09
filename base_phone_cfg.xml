@@ -1,0 +1,1579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+	<Phone_cfg>
+		<!--This is buttons config in null -->
+		<Widget name="folder_name">
+			<!--测试文件管理器新建文件夹时，新建的文件夹的名称 -->
+			<Attribute>010</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="online_x">
+			<!--测试浏览器在线播放视频时，视频文件所在位置的X轴坐标，需要点击该超链接，才开始在线播放 -->
+			<Attribute></Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="online_y">
+			<!--测试浏览器在线播放视频时，视频文件所在位置的Y轴坐标，需要点击该超链接，才开始在线播放 -->
+			<Attribute></Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="eml_subject">
+			<!--测试Email时，邮件的主题 -->
+			<Attribute>For MTBF test</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="website_name">
+			<!--测试浏览器上网时，网站完全打开后，显示在url栏中的名称，用来确定打开网站正确 -->
+			<Attribute>百度一下</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="calcu_express">
+			<!--测试计算器时，输入的表达式，具体符号意思详见Calculator模块 -->
+			<Attribute>s5)*2=</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="mms_video">
+			<!--测试彩信时，添加视频附件时候，识别视频的文本，通常是视频大小 -->
+			<Attribute>63.43KB</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="calendar_content">
+			<!--日历中需要新建的event/task的内容 -->
+			<Attribute>Have fun.</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="aud_name">
+			<!--测试浏览器下载音频文件时，下载下来后的文件名称 -->
+			<Attribute>mp3.mp3</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="hyperlink_x">
+			<!--测试浏览器上网点击超链接时，超链接所在X轴位置 -->
+			<Attribute>50</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="online_name">
+			<!--测试浏览器在线播放视频时，打开网址后再url栏中显示的名称，用来确定online的书签正确打开 -->
+			<Attribute>COMCAT</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="eml_receiver">
+			<!--测试Email时，邮件的收信人 -->
+			<Attribute>testmtbf5@139.com</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="call_number">
+			<!--测试中拨打的号码，要添加到通讯录里面的号码，要发送短信的号码 -->
+			<Attribute>10086</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="pic_name">
+			<!--测试浏览器下载图片文件时，下载下来后的文件名称 -->
+			<Attribute>Picteure.jpg</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="calendar_theme">
+			<!--日历中需要新建的event/task的主题 -->
+			<Attribute>just_test</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="vdo_name">
+			<!--测试浏览器下载视频文件时，下载下来后的文件名称 -->
+			<Attribute>3Gp.3gp</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="mms_picture">
+			<!--测试彩信时，添加图片附件时候，识别图片的文本，通常是图片大小 -->
+			<Attribute>48.86</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="pic_mark">
+			<!--测试浏览器下载图片文件时，对应网址的书签名称 -->
+			<Attribute>JPG</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="online_mark">
+			<!--测试浏览器在线播放视频时，对应网址的书签名称 -->
+			<Attribute>STRAE</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="mms_audio">
+			<!--测试彩信时，添加音频附件时候，识别音频的文本，通常是歌曲名 -->
+			<Attribute>Sound 100K</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="aud_mark">
+			<!--测试浏览器下载音频文件时，对应网址的书签名称 -->
+			<Attribute>MP3</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="sms_message">
+			<!--测试短信apk时，发送的短信内容，也可作为彩信的主题 -->
+			<Attribute>nihao</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="eml_picture">
+			<!--测试Email时，添加图片附件用来识别附件的文本，通常是图片大小 -->
+			<Attribute>96.87KB</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="website_mark">
+			<!--测试浏览器上网时，网站的书签名称 -->
+			<Attribute>BAIDU</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="content_name">
+			<!--联系人apk中新添加的联系人名称 -->
+			<Attribute>Test</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="hyperlink_y">
+			<!--测试浏览器上网点击超链接时，超链接所在Y轴位置 -->
+			<Attribute>600</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="vdo_mark">
+			<!--测试浏览器下载视频文件时，对应网址的书签名称 -->
+			<Attribute>3GP</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="eml_body">
+			<!--测试Email时，邮件的内容 -->
+			<Attribute>Can you see this?</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="text_name">
+			<!--测试浏览器下载文本文件时，下载下来后的文件名称 -->
+			<Attribute>TEXT.txt</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="text_mark">
+			<!--测试浏览器下载文本文件时，对应网址的书签名称 -->
+			<Attribute>TEXT</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="hyperlink_name">
+			<!--测试浏览器上网并点击其中超链接时，点开超链接后显示在url栏中的名称，用来确定超链接打来正确 -->
+			<Attribute>百度新闻</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="calcu_result">
+			<!--测试计算器时，用来比对的结果 -->
+			<Attribute>-1.9178485</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+	</Phone_cfg>
+	<Browser_cfg name="Browser" package="browser">
+		<!--This is buttons config in Browser -->
+		<Widget name="history">
+			<!--菜单中的历史记录选项 -->
+			<Attribute>History</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="bookmarks">
+			<!--菜单中的书签选项 -->
+			<Attribute>Bookmarks</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="stop">
+			<!--加载网页时出现的停止按钮，通常在url输入框附近 -->
+			<Attribute>.+stop</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="bookmark">
+			<!--工具栏中的书签按钮 -->
+			<Attribute>.+bookmark.*</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="forword">
+			<!--往后面一页的按钮 -->
+			<Attribute>.+forword</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="menu">
+			<!--菜单键 -->
+			<Attribute>.+more</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="listmenu">
+			<!--菜单键 -->
+			<Attribute>.+right.*</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="exit">
+			<!--菜单列表中的退出选项 -->
+			<Attribute>Exit</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="url">
+			<!--浏览器的网址输入框，当加载完网页后，网址名称也会显示在此框中 -->
+			<Attribute>.+url</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="homepage">
+			<!--工具栏中的主页按钮 -->
+			<Attribute>.+homepage</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="go">
+			<!--在url输入框中输入完地址后，点击该键开始加载输入的网址 -->
+			<Attribute>.+go</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+	</Browser_cfg>
+	<Calculator_cfg name="Calculator" package="calculator2">
+		<!--This is buttons config in Calculator -->
+		<Widget name="expression">
+			<!--测试计算器时，输入的表达式，具体符号意思详见Calculator模块 -->
+			<Attribute>s5)*2=</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="result">
+			<!--结果栏 -->
+			<Attribute></Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="ln">
+			<!--ln -->
+			<Attribute>ln</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="percent">
+			<!--百分比 -->
+			<Attribute>%</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="nine">
+			<!--9 -->
+			<Attribute>9</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="one">
+			<!--1 -->
+			<Attribute>1</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="cosin">
+			<!--cosin -->
+			<Attribute>cos</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="zero">
+			<!--0 -->
+			<Attribute>0</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="eight">
+			<!--8 -->
+			<Attribute>8</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="dot">
+			<!--小数点 -->
+			<Attribute>.</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="six">
+			<!--6 -->
+			<Attribute>6</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="clear">
+			<!--清除输入按钮，就是那个C -->
+			<Attribute>C</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="cal_result">
+			<!--计算器的计算结果，显示在TextEditer中 -->
+			<Attribute></Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="division">
+			<!--除号 -->
+			<Attribute>÷</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="three">
+			<!--3 -->
+			<Attribute>3</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="power">
+			<!--乘方 -->
+			<Attribute>^</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="del">
+			<!--删除输入键 -->
+			<Attribute>.+del</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="four">
+			<!--4 -->
+			<Attribute>4</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="real_result">
+			<!--测试计算器时，用来比对的结果 -->
+			<Attribute>-1.9178485</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="plus">
+			<!--加号 -->
+			<Attribute>+</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="history_clear">
+			<!--清除历史记录按钮 -->
+			<Attribute>.+history_clear_land</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="five">
+			<!--5 -->
+			<Attribute>5</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="minus">
+			<!--减号 -->
+			<Attribute>−</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="e">
+			<!--自然数e -->
+			<Attribute>e</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="sqrt">
+			<!--开方 -->
+			<Attribute>√</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="multiply">
+			<!--乘号 -->
+			<Attribute>×</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="equal">
+			<!--等号 -->
+			<Attribute>=</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="log">
+			<!--log -->
+			<Attribute>log</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="divd">
+			<!--分之一 -->
+			<Attribute>1/X</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="two">
+			<!--2 -->
+			<Attribute>2</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="seven">
+			<!--7 -->
+			<Attribute>7</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="left_paren">
+			<!--右圆括号 -->
+			<Attribute>)</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="sin">
+			<!--sin -->
+			<Attribute>sin</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="factorial">
+			<!--阶乘 -->
+			<Attribute>!</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="square">
+			<!--平方 -->
+			<Attribute>X^2</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="pi">
+			<!--圆周率 -->
+			<Attribute>π</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="slide_drawer">
+			<!--点击历史记录会滑下来覆盖计算器界面 -->
+			<Attribute>.+slidingDrawerView</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="tan">
+			<!--tan -->
+			<Attribute>tan</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+	</Calculator_cfg>
+	<Calendar_cfg name="Calendar" package="calendar">
+		<!--This is buttons config in Calendar -->
+		<Widget name="reminder">
+			<!--提醒按钮 -->
+			<Attribute>.+reminder.+</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="today">
+			<!--查看今天的日历、日程按钮 -->
+			<Attribute>.+action_today</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="cancel">
+			<!--取消键 -->
+			<Attribute>Cancel</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="end_date">
+			<!--事件终止日期 -->
+			<Attribute>.+end_date</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="all_agenda">
+			<!--查看所有日程 -->
+			<Attribute>.+select_checkbox</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="empty">
+			<!--日程为空的提示控件 -->
+			<Attribute>.+empty</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="delete">
+			<!--删除键 -->
+			<Attribute>Delete</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="ok">
+			<!--OK按钮，确认按钮 -->
+			<Attribute>OK</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="year">
+			<!--年历视图 -->
+			<Attribute>Year</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="agenda">
+			<!--日程视图按钮 -->
+			<Attribute>Agenda</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="new_event">
+			<!--新建事件按钮 -->
+			<Attribute>New event</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="theme">
+			<!--事件主题编辑框 -->
+			<Attribute>theme</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="done">
+			<!--写完新建完事件后，点击done确认新建，类似save -->
+			<Attribute>Done</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="menu">
+			<!--菜单键 -->
+			<Attribute>More</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="addevent">
+			<!--添加中选择新事件按钮 -->
+			<Attribute>Add event</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="addtask">
+			<!--添加中选择新任务按钮 -->
+			<Attribute>Add task</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="content">
+			<!--事件的内容 -->
+			<Attribute>content</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="corpus">
+			<!--日程视图选择按钮，点击可选择切换成月历/年历/查看所有日程 -->
+			<Attribute>.+corpus_indicator</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="end_time">
+			<!--事件终止时间 -->
+			<Attribute>.+end_time</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="month">
+			<!--查看月历视图 -->
+			<Attribute>Month</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="start_time">
+			<!--事件开始时间 -->
+			<Attribute>.+start_time</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="day">
+			<!--日历视图 -->
+			<Attribute>Day</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="start_date">
+			<!--事件开始日期 -->
+			<Attribute>.+start_date</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="confirm">
+			<!--操作确认键，通常是确认删除、拷贝 -->
+			<Attribute>.+confirm_ok</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="week">
+			<!--周历视图 -->
+			<Attribute>Week</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+	</Calendar_cfg>
+	<Call_cfg name="Call" package="contact">
+		<!--This is buttons config in Call -->
+		<Widget name="elaptime">
+			<!--通话时间控件 -->
+			<Attribute>.+elapsedTime</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="Phone">
+			<!--拨号盘的APK名称 -->
+			<Attribute>Phone</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="hangup">
+			<!--通知栏中的挂电话键 -->
+			<Attribute>Hang up</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="menu">
+			<!--菜单键 -->
+			<Attribute>.+menuButton</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="star">
+			<!--星号键 -->
+			<Attribute>.+star</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="dial">
+			<!--拨号键 -->
+			<Attribute>.+dailButton.*</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="number">
+			<!--数字键盘的配置，所有10个数字都在这里，以|来分割 -->
+			<Attribute>zero|one|two|three|four|five|six|seven|eight|nine|</Attribute>
+			<Method_sel>desc</Method_sel>
+		</Widget>
+		<Widget name="dailpad">
+			<!--拨号盘键 -->
+			<Attribute>.+dialPad</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="record">
+			<!--通话录音键 -->
+			<Attribute>.+recordButton.*</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="ongoing">
+			<!--通知栏中显示正在通话中的控件 -->
+			<Attribute>Ongoing call</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="dialing">
+			<!--通知栏中显示正在拨号中的控件 -->
+			<Attribute>Dialing</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="phone_num">
+			<!--卡1需要拨打出去的电话号码，通常只需要attribute属性，不需要method_sel -->
+			<Attribute>10086</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="phone_num1">
+			<!--卡2需要拨打出去的电话号码，通常只需要attribute属性，不需要method_sel -->
+			<Attribute>10000</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="delete">
+			<!--删除键 -->
+			<Attribute>.+deleteButton</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="enddial">
+			<!--挂电话键 -->
+			<Attribute>.+end_call.*</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="pound">
+			<!--井号键 -->
+			<Attribute>.+pound</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+	</Call_cfg>
+	<Camera_cfg name="Camera" package="camera2">
+		<!--This is buttons config in Camera -->
+		<Widget name="flash">
+			<!--闪光灯键 -->
+			<Attribute>.+flash.+</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="switcher">
+			<!--前后摄像头切换键 -->
+			<Attribute>.+switcher</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="thumbnail">
+			<!--缩略图，点击可进入图库 -->
+			<Attribute>.+thumbnail</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="shutter">
+			<!--快门键 -->
+			<Attribute>.+shuter.+</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="photo">
+			<!--拍视频视图 -->
+			<Attribute>Photo</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="video">
+			<!--拍照视图 -->
+			<Attribute>Video</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+	</Camera_cfg>
+	<Clock_cfg name="Clock" package="clock">
+		<!--This is buttons config in Clock -->
+		<Widget name="new_alarm_id">
+			<!--显示在闹钟界面的每个闹钟控件 -->
+			<Attribute>.+digital_clock</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="multi_del">
+			<!--操作多个的确认键 -->
+			<Attribute>.+Button_del.*</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="select_all">
+			<!--全选键 -->
+			<Attribute>.+select_all.*</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="alarm">
+			<!--闹钟视图 -->
+			<Attribute>ALARMS</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="more">
+			<!--more按钮，类似menu的三个点 -->
+			<Attribute>more</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="save">
+			<!--保存键 -->
+			<Attribute>Save</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="no_alarm">
+			<!--没任何闹钟时的提示信息 -->
+			<Attribute>No alarms</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="delete">
+			<!--删除键 -->
+			<Attribute>Delete</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="cancel">
+			<!--取消键 -->
+			<Attribute>Cancel</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="ok">
+			<!--确认键 -->
+			<Attribute>OK</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="add_alarm">
+			<!--增加一个新闹钟按钮 -->
+			<Attribute>Add alarm</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="repeat">
+			<!--闹钟属性中的重复选项 -->
+			<Attribute>Repeat</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+	</Clock_cfg>
+	<Contacts_cfg name="Contacts" package="contacts">
+		<!--This is buttons config in Contacts -->
+		<Widget name="call">
+      <!---->
+			<Attribute>.+call_icon</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="btn_done">
+      <!---->
+			<Attribute>.+btn_done.*</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="menu">
+			<!--菜单键 -->
+			<Attribute>.+menu_button_more</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="cancel">
+			<!--取消键 -->
+			<Attribute>Cancel</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="create">
+			<!--创建新联系人键 -->
+			<Attribute>Add</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="up">
+			<!--返回上层，类似back，经常以小于号显示 -->
+			<Attribute>.+up</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="create_new_contact">
+			<!--没有任何联系人时候的新建联系人按钮 -->
+			<Attribute>.+create_contact_button</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="new_save">
+			<!--新建联系人视图中的保存键 -->
+			<Attribute>Save</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="message">
+      <!---->
+			<Attribute>.+secondary_action_button</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="select_all">
+      <!---->
+			<Attribute>Select all</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="more">
+      <!---->
+			<Attribute>More</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="search">
+			<!--查找输入框 -->
+			<Attribute>.+search_text</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="delete">
+      <!---->
+			<Attribute>Delete</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="ok">
+      <!---->
+			<Attribute>OK</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="new_name">
+			<!--新建联系人视图中的联系人名称输入框 -->
+			<Attribute>Name</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="new_phone">
+			<!--新建联系人视图中的手机号输入框 -->
+			<Attribute>Phone</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="no_contacts">
+			<!--没有任何联系人的提示信息控件 -->
+			<Attribute>No contacts.</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+	</Contacts_cfg>
+	<Downloads_cfg name="Downloads" package="documentsui">
+		<!--This is buttons config in Downloads -->
+		<Widget name="no_items">
+			<!--没有任何下载内容的提示信息控件 -->
+			<Attribute>No items</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="view_sel">
+      <!---->
+			<Attribute>.+title</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="fail">
+			<!--下载不成功提示信息控件 -->
+			<Attribute>Unsuccessful</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="sort_by">
+			<!--排列规则 -->
+			<Attribute>.+menu_sort</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="item">
+			<!--下载列表中每个下载项就是一个item -->
+			<Attribute>.+title</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="delete">
+			<!--删除键 -->
+			<Attribute>Delete</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="downloading">
+			<!--正在下载中的提示信息控件 -->
+			<Attribute>In progress</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="more_opt">
+			<!--更多操作，类似more -->
+			<Attribute>More options</Attribute>
+			<Method_sel>desc</Method_sel>
+		</Widget>
+		<Widget name="retry">
+			<!--重试按钮 -->
+			<Attribute>Retry</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+	</Downloads_cfg>
+	<Email_cfg name="Email" package="email">
+		<!--This is buttons config in Email -->
+		<Widget name="outbox">
+			<!--邮箱列表中的发件箱 -->
+			<Attribute>Outbox</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="body">
+			<!--Email的内容输入框 -->
+			<Attribute>.+body_text</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="send">
+			<!--发送按钮 -->
+			<Attribute>.+send</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="subject">
+			<!--Emei的主题输入框 -->
+			<Attribute>.+subject</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="inbox">
+			<!--邮箱列表中的收件箱 -->
+			<Attribute>Inbox</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="cancel">
+			<!--取消键 -->
+			<Attribute>Cancel</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="discard">
+			<!--抛弃当前所写邮件或草稿邮件的按钮 -->
+			<Attribute>.+discard.*</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="clear">
+			<!--清除所有键 -->
+			<Attribute>Clear</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="sent">
+			<!--邮箱列表中的已发邮件邮箱 -->
+			<Attribute>Sent</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="selected">
+      <!---->
+			<Attribute>Operate selected</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="more">
+      <!---->
+			<Attribute>More</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="delete">
+			<!--删除键 -->
+			<Attribute>Delete</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="take_aud">
+			<!--选择现在录音作为附件 -->
+			<Attribute>Take Audio</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="compose">
+			<!--写新邮件按钮 -->
+			<Attribute>.+compose</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="ok">
+			<!--确认键 -->
+			<Attribute>OK</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="refresh">
+			<!--刷新按钮 -->
+			<Attribute>.+refresh</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="video">
+			<!--选择已有视频作为附件 -->
+			<Attribute>Videos</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="audio">
+			<!--选择已有音频作为附件 -->
+			<Attribute>Audios</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="loading">
+			<!--邮箱界面正在加载邮件的提示控件 -->
+			<Attribute>Loading…</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="to_draft">
+      <!---->
+			<Attribute>Save draft</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="edit">
+			<!--编辑草稿邮件按钮 -->
+			<Attribute>.+edit_draft</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="take_vdo">
+			<!--选择现拍视频作为附件 -->
+			<Attribute>Take Video</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="no_message">
+			<!--邮箱中没有任何邮件的提示控件 -->
+			<Attribute>.+empty_text</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="drafts">
+			<!--邮箱列表中的草稿箱 -->
+			<Attribute>Drafts</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="up">
+			<!--返回上层，类似back，通常以小于号的样子出现 -->
+			<Attribute>.+up</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="empty_trash">
+			<!--垃圾箱为空的提示控件 -->
+			<Attribute>.+empty_trash</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="spinner">
+			<!--邮箱视图中显示新邮件数目的控件 -->
+			<Attribute>.+spinner_count</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="picture">
+			<!--选择已有图片作为附件 -->
+			<Attribute>Pictures</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="select_all">
+			<!--全选键 -->
+			<Attribute>.+select_all</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="email_home">
+			<!--Email的主菜单键，点击会拉出邮箱列表 -->
+			<Attribute>.+home</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="address">
+			<!--写新邮件视图中的收件人输入框 -->
+			<Attribute>.+to</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="take_pic">
+			<!--选择现拍照片作为附件 -->
+			<Attribute>Take Pictures</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="attach">
+			<!--写新邮件视图中添加附件按钮，通常以曲别针形式显示 -->
+			<Attribute>Attach file</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="trash">
+			<!--邮箱列表中的垃圾箱 -->
+			<Attribute>Trash</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="picker">
+      <!---->
+			<Attribute>.+to_recipients_picker</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+	</Email_cfg>
+	<Files_cfg name="My Files" package="FileManager">
+		<!--This is buttons config in My Files -->
+		<Widget name="show_root">
+			<!--从其他APK进入文件管理器中时的界面的HOME键，类似Email中的email_home -->
+			<Attribute>Show roots</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="create_name">
+			<!--新建文件夹名称的编辑框 -->
+			<Attribute>.+EditText_PROM.*</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="menu">
+			<!--菜单键 -->
+			<Attribute>.+optionmenu_button.*</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="cancel">
+			<!--取消键 -->
+			<Attribute>Cancel</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="create">
+			<!--新建键 -->
+			<Attribute>New</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="sd_store">
+			<!--SD卡存储界面 -->
+			<Attribute>SD CARD</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="up">
+			<!--返回上层，类似back -->
+			<Attribute>.+UpToParent.*</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="select_all">
+			<!--全选键 -->
+			<Attribute>All</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="search">
+			<!--查找键 -->
+			<Attribute>.+search_button.*</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="no_files">
+			<!--当前文件夹中没有任何文件的提示控件 -->
+			<Attribute>No files</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="delete">
+			<!--删除键 -->
+			<Attribute>Delete</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="f_class">
+			<!--文件夹中文件列表，表示每个文件(夹)的控件的class -->
+			<Attribute>android.widget.LinearLayout</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="ok">
+			<!--确认键 -->
+			<Attribute>OK</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="operations">
+			<!--确认多个对象的操作按钮，比如删除、拷贝时 -->
+			<Attribute>.+Button_Operation.*</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="phe_store">
+			<!--手机存储界面 -->
+			<Attribute>Phone storage</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="copy">
+			<!--拷贝键 -->
+			<Attribute>Copy</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+	</Files_cfg>
+	<Gallery_cfg name="Gallery" package="gallery3d">
+		<!--This is buttons config in Gallery -->
+		<Widget name="select_all">
+			<!--全选键 -->
+			<Attribute>Select all</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="menu">
+			<!--菜单键 -->
+			<Attribute>More options</Attribute>
+			<Method_sel>desc</Method_sel>
+		</Widget>
+		<Widget name="albums">
+			<!--照片专辑键 -->
+			<Attribute>.+text1</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="delete">
+			<!--删除键 -->
+			<Attribute>Delete</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="multi">
+			<!--多种操作复用的确认键，通常是删除、拷贝之类的，比如选择了两个图片删除，会让你再确认一下 -->
+			<Attribute>Multi-operation</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="cancel">
+			<!--取消键 -->
+			<Attribute>Cancel</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="ok">
+			<!--确认键 -->
+			<Attribute>OK</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+	</Gallery_cfg>
+	<Messaging_cfg name="Messaging" package="mms">
+		<!--This is buttons config in Messaging -->
+		<Widget name="send">
+			<!--发送键 -->
+			<Attribute>.+send_button.*</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="save">
+			<!--保存键 -->
+			<Attribute>.+okayButton</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="receiver">
+			<!--写短信界面的收件人编辑框 -->
+			<Attribute>.+recipients_editor</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="msg_subj">
+      <!---->
+			<Attribute>.+subject</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="subject">
+			<!--给mms添加主题附件 -->
+			<Attribute>Subject</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="has_draft">
+			<!--短信列表中的表明是草稿的控件 -->
+			<Attribute>[Draft]</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="cancel">
+			<!--取消键 -->
+			<Attribute>Cancel</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="from">
+      <!---->
+			<Attribute>.+from</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="contact">
+      <!---->
+			<Attribute>Contact</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="clear">
+			<!--清除键，删除所有，毋需再全选删除 -->
+			<Attribute>Delete all threads</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="more">
+			<!--more键，类似menu -->
+			<Attribute>More</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="fail">
+			<!--短信发送失败的提示控件 -->
+			<Attribute>.+failed.+</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="sch_editor">
+      <!---->
+			<Attribute>.+search_src_text</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="search">
+      <!---->
+			<Attribute>.+search.*</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="card1">
+			<!--选择卡1发送 -->
+			<Attribute>Card1</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="delete">
+			<!--删除键 -->
+			<Attribute>Delete</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="take_aud">
+			<!--选择现录音频作为附件 -->
+			<Attribute>Record audio</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="ok">
+			<!--确认键 -->
+			<Attribute>OK</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="slide">
+      <!---->
+			<Attribute>.+slide_number_text</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="card2">
+			<!--选择卡2发送 -->
+			<Attribute>Card2</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="video">
+			<!--选择已有视频作为附件 -->
+			<Attribute>Videos</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="ext_audio">
+			<!--选择外部音频文件作为附件 -->
+			<Attribute>External audio</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="audio">
+			<!--选择已有音频作为附件 -->
+			<Attribute>Audio</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="done">
+      <!---->
+			<Attribute>.+done_button</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="menu">
+			<!--菜单键 -->
+			<Attribute>More options</Attribute>
+			<Method_sel>desc</Method_sel>
+		</Widget>
+		<Widget name="edit">
+			<!--编辑幻灯片键 -->
+			<Attribute>.+edit_slideshow_button</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="take_vdo">
+			<!--选择现拍视频作为附件 -->
+			<Attribute>Capture video</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="sys_audio">
+			<!--选择系统音频文件作为附件 -->
+			<Attribute>System audio</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="create">
+			<!--写新短信按钮 -->
+			<Attribute>.+new</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="up">
+			<!--返回键，类似back -->
+			<Attribute>.+up</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="message">
+			<!--写短信界面中的短信内容输入框 -->
+			<Attribute>.+frame_text_bottom</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="picture">
+			<!--选择已有图片作为附件 -->
+			<Attribute>Pictures</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="sending">
+			<!--表明短信正在发送中的提示控件 -->
+			<Attribute>SENDING…</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="del_x">
+			<!--确认删除多个的按钮 -->
+			<Attribute>.+delete_button.*</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="select_all">
+			<!--全选键 -->
+			<Attribute>All</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="reci_picker">
+      <!---->
+			<Attribute>.+recipients_picker</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="take_pic">
+			<!--选择现拍图片作为附件 -->
+			<Attribute>Capture picture</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="attach">
+			<!--写短信界面添加附件按钮，通常是曲别针的样子 -->
+			<Attribute>.+attach_button</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="multi">
+			<!--多种操作的确认键，比如删除、拷贝、分享 -->
+			<Attribute>.+ok_button</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="no_convst">
+			<!--当前界面没有任何短信的提示控件 -->
+			<Attribute>No conversations.</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+	</Messaging_cfg>
+	<Music_cfg name="Music" package="music">
+		<!--This is buttons config in Music -->
+		<Widget name="genres">
+			<!--音乐流派视图 -->
+			<Attribute>GENRES</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="song_name">
+			<!--歌曲名称控件，每个代表一首歌曲 -->
+			<Attribute>.+line1</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="songs">
+			<!--音乐曲目视图 -->
+			<Attribute>SONGS</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="next">
+			<!--播放下一首按钮 -->
+			<Attribute>.+next</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="cancel">
+			<!--取消键 -->
+			<Attribute>Cancel</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="repeat">
+			<!--音乐播放界面的循环播放按钮 -->
+			<Attribute>.+repeat</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="add_to_list">
+			<!--添加到播放列表按钮 -->
+			<Attribute>Add to playlist</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="up">
+			<!--返回键，类似back -->
+			<Attribute>.+up</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="play_pause">
+			<!--播放和停止按钮 -->
+			<Attribute>.+pause</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="artists">
+			<!--音乐艺术家视图 -->
+			<Attribute>ARTISTS</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="select_all">
+			<!--全选键 -->
+			<Attribute>Select all</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="more">
+			<!--音乐播放界面的more键，更多操作，类似menu -->
+			<Attribute>More options</Attribute>
+			<Method_sel>desc</Method_sel>
+		</Widget>
+		<Widget name="lyric">
+			<!--音乐播放界面的歌词按钮 -->
+			<Attribute>Lyric</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="shuffle">
+			<!--播放界面的随机播放按钮 -->
+			<Attribute>.+shuffle</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="pre">
+			<!--播放前一首按钮 -->
+			<Attribute>.+prev</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="directory">
+			<!--音乐文件夹视图 -->
+			<Attribute>DIRECTORY</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="albums">
+			<!--音乐专辑/唱片视图 -->
+			<Attribute>ALBUMS</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="multi">
+			<!--确认删除多个按钮 -->
+			<Attribute>.+multidelbtn</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="delete">
+			<!--删除键 -->
+			<Attribute>Delete</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="ok">
+			<!--确认键 -->
+			<Attribute>OK</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="playlists">
+			<!--播放列表视图 -->
+			<Attribute>PLAYLISTS</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="playlist">
+			<!--音乐播放界面的播放列表按钮 -->
+			<Attribute>Playlist</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="current_list">
+			<!--当前播放列表按钮 -->
+			<Attribute>Current playlist</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+	</Music_cfg>
+	<Recorder_cfg name="Recorder" package="soundrecorder">
+		<!--This is buttons config in Recorder -->
+		<Widget name="phone_store">
+			<!--录音保存在手机内存中 -->
+			<Attribute>Phone storage</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="start_pause">
+			<!--开始/停止录音键 -->
+			<Attribute>.+recordButton</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="save">
+			<!--保存按钮 -->
+			<Attribute>.+stopButton</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="sd_card">
+			<!--录音保存在SD卡中 -->
+			<Attribute>SD card</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="menu">
+			<!--更多操作，类似menu，三个点 -->
+			<Attribute>More options</Attribute>
+			<Method_sel>desc</Method_sel>
+		</Widget>
+		<Widget name="mem_location">
+			<!--选择存储位置按钮 -->
+			<Attribute>Memory location</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="cancel">
+			<!--取消键 -->
+			<Attribute>Cancel</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="list">
+			<!--录音文件列表按钮 -->
+			<Attribute>.+listButton</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="up">
+			<!--返回上层，类似back -->
+			<Attribute>.+up</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="file_type">
+			<!--选择储存文件类型按钮 -->
+			<Attribute>File type</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="no_records">
+			<!--List界面中没有任何录音文件的提示控件 -->
+			<Attribute>No records</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="select_all">
+			<!--全选键 -->
+			<Attribute>.+toggler</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="more">
+			<!--List界面中的more，也是三个点 -->
+			<Attribute>.+recordButton</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="gp3">
+			<!--选择3GP作为保存录音的格式 -->
+			<Attribute>3GP</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="delete">
+			<!--删除按钮 -->
+			<Attribute>Delete</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="multi">
+			<!--确认操作多个按钮 -->
+			<Attribute>.+deleteButton</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="ok">
+			<!--确认键 -->
+			<Attribute>OK</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+		<Widget name="record_data">
+			<!--录音文件的控件 -->
+			<Attribute>.+duration</Attribute>
+			<Method_sel>id</Method_sel>
+		</Widget>
+		<Widget name="amr">
+			<!--选择AMR作为保存录音的格式 -->
+			<Attribute>AMR</Attribute>
+			<Method_sel>text</Method_sel>
+		</Widget>
+	</Recorder_cfg>
+</root>

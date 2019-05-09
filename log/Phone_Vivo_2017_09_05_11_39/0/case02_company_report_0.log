@@ -1,0 +1,40 @@
+09-05 11:18:26.280 base_testcase.java testcases.case02_company_report 123  - Enter Testcase : case02_company_report
+09-05 11:18:26.378 module.java Phone.Phone_Vivo 1299 - Try to Wake up the phone.
+09-05 11:18:27.379 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-05 11:18:27.380 base_testcase.java testcases.case02_company_report 125  - The Phone is Phone_Vivo
+09-05 11:18:27.381 case02_company_report.java testcases.case02_company_report 21   - Now is running function '模糊匹配_test'
+09-05 11:18:27.382 base_phone.java Phone.Phone_Vivo 76   - ******** 企业报告测试 ********
+09-05 11:18:27.384 module.java Modules.Videos 59   - apk name is '万象信用'
+09-05 11:18:27.542 module.java Modules.Videos 1210 - Try to scroll to the text of '万象信用'
+09-05 11:18:27.635 module.java Modules.Videos 63   - find is true
+09-05 11:18:27.636 module.java Modules.Videos 77   - Click open apk
+09-05 11:18:27.987 module.java Modules.Videos 176  - Try to click a UiObject.
+09-05 11:18:32.988 module.java Modules.Videos 107  - Wait for 5 seconds.
+09-05 11:18:33.794 module.java Modules.Videos 1223 - Try get packagename of this view :com.ccx.zhengxin
+09-05 11:18:33.795 module.java Modules.Videos 93   - The package name is correct. this apk is running correctly.
+09-05 11:18:35.926 module.java Modules.Videos 139  - Try to click the button 'first_page' 
+09-05 11:18:36.927 module.java Modules.Videos 107  - Wait for 1 seconds.
+09-05 11:18:37.356 module.java Modules.Videos 139  - Try to click the button 'company' 
+09-05 11:18:38.357 module.java Modules.Videos 107  - Wait for 1 seconds.
+09-05 11:18:41.265 module.java Modules.Videos 196  - Try to write '中诚信征信' in button :search
+09-05 11:18:41.385 module.java Modules.Videos 1167 - Try to check if the button 'match1' is exist, and result is true.
+09-05 11:18:41.385 base_phone.java Phone.Phone_Vivo 83   - 检测模糊匹配项成功
+09-05 11:18:41.636 module.java Modules.Videos 139  - Try to click the button 'match1' 
+09-05 11:18:46.637 module.java Modules.Videos 107  - Wait for 5 seconds.
+09-05 11:18:46.925 module.java Modules.Videos 139  - Try to click the button 'register' 
+09-05 11:18:48.927 module.java Modules.Videos 107  - Wait for 2 seconds.
+09-05 11:18:48.954 module.java Modules.Videos 1167 - Try to check if the button 'credit_code' is exist, and result is true.
+09-05 11:18:48.955 base_phone.java Phone.Phone_Vivo 86   - 企业报告查询成功
+09-05 11:18:48.956 base_testcase.java testcases.case02_company_report 169  - case02_company_report : file './log/Phone_Vivo/xml/case02_company_report_cycle_0.xml' is not exist, create it.
+09-05 11:18:48.964 base_testcase.java testcases.case02_company_report 145  - Let phone back to home view.
+09-05 11:18:50.965 module.java Phone.Phone_Vivo 107  - Wait for 2 seconds.
+09-05 11:18:51.018 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+09-05 11:18:52.020 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-05 11:18:52.106 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+09-05 11:18:53.108 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-05 11:18:53.151 module.java Phone.Phone_Vivo 1223 - Try get packagename of this view :com.ccx.zhengxin
+09-05 11:18:53.151 base_testcase.java testcases.case02_company_report 151  - ERROR: press BACK cannot exit.
+09-05 11:18:53.152 base_testcase.java testcases.case02_company_report 110  - This is ending error.
+09-05 11:18:53.152 test1.java Test.test1 182  - TestCase : 'case02_company_report' is SUCCESS!
+09-05 11:18:53.153 test1.java Test.test1 183  - TEST_TOP : case02_company_report set_times is 1 case_times is 1
+09-05 11:18:53.153 test1.java Test.test1 185  - TEST_TOP : case 'case02_company_report' all finished. now gen html file.

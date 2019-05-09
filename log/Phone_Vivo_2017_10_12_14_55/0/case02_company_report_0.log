@@ -1,0 +1,74 @@
+09-29 14:15:28.801 base_testcase.java testcases.case02_company_report 123  - Enter Testcase : case02_company_report
+09-29 14:15:29.059 module.java Phone.Phone_Vivo 1299 - Try to Wake up the phone.
+09-29 14:15:30.061 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-29 14:15:30.062 base_testcase.java testcases.case02_company_report 125  - The Phone is Phone_Vivo
+09-29 14:15:30.064 case02_company_report.java testcases.case02_company_report 21   - Now is running function '企业报告_test'
+09-29 14:15:30.065 base_phone.java Phone.Phone_Vivo 76   - ******** 企业报告测试 ********
+09-29 14:15:30.067 module.java Modules.Videos 59   - apk name is '万象信用'
+09-29 14:15:30.316 module.java Modules.Videos 1210 - Try to scroll to the text of '万象信用'
+09-29 14:15:30.411 module.java Modules.Videos 63   - find is true
+09-29 14:15:30.412 module.java Modules.Videos 77   - Click open apk
+09-29 14:15:30.759 module.java Modules.Videos 176  - Try to click a UiObject.
+09-29 14:15:35.762 module.java Modules.Videos 107  - Wait for 5 seconds.
+09-29 14:15:35.947 module.java Modules.Videos 1223 - Try get packagename of this view :com.ccx.zhengxin
+09-29 14:15:35.949 module.java Modules.Videos 93   - The package name is correct. this apk is running correctly.
+09-29 14:15:38.219 module.java Modules.Videos 139  - Try to click the button 'first_page' 
+09-29 14:15:39.221 module.java Modules.Videos 107  - Wait for 1 seconds.
+09-29 14:15:40.879 module.java Modules.Videos 139  - Try to click the button 'company' 
+09-29 14:15:41.881 module.java Modules.Videos 107  - Wait for 1 seconds.
+09-29 14:15:44.781 module.java Modules.Videos 196  - Try to write '中诚信征信' in button :search
+09-29 14:15:44.849 module.java Modules.Videos 1167 - Try to check if the button 'match1' is exist, and result is false.
+09-29 14:15:44.850 base_phone.java Phone.Phone_Vivo 91   - 检测模糊匹配项失败
+09-29 14:15:44.851 base_testcase.java testcases.case02_company_report 75   - This is run error.
+09-29 14:15:44.851 base_testcase.java testcases.case02_company_report 233  - Screenshot-->./Phone_Vivo/0/case02_company_report_0.png
+09-29 14:15:45.260 UiDevice.java uiautomatorrpc.UiDevice 321  - @@@@@@@ result is : /data/local/tmp/Screenshot.png
+09-29 14:15:45.385 UiDevice.java uiautomatorrpc.UiDevice 325  - @@@@@@@@ adb command is : adb  -s U4J7Y5BANV8POF95 pull /data/local/tmp/Screenshot.png "./log/Phone_Vivo/0/\case02_company_report_0.png"
+09-29 14:15:46.584 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-29 14:15:46.584 base_testcase.java testcases.case02_company_report 239  - Screenshot saved.
+09-29 14:15:46.628 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+09-29 14:15:47.630 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-29 14:15:47.698 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+09-29 14:15:48.700 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-29 14:15:49.478 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+09-29 14:15:50.480 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-29 14:15:50.724 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+09-29 14:15:51.726 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-29 14:15:51.804 module.java Phone.Phone_Vivo 1234 - Try to press home(use keycode).
+09-29 14:15:51.848 base_testcase.java testcases.case02_company_report 77   - null
+java.lang.Exception
+	at Phone.base_phone.company_report_test(base_phone.java:92) ~[bin/:?]
+	at testcases.case02_company_report.during_run(case02_company_report.java:22) ~[bin/:?]
+	at testcases.base_testcase.run(base_testcase.java:70) [bin/:?]
+	at testcases.base_testcase.process(base_testcase.java:51) [bin/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_101]
+	at Test.test1.run(test1.java:149) [bin/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_101]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit.jar:4.12]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:?]
+09-29 14:15:51.889 base_testcase.java testcases.case02_company_report 169  - case02_company_report : file './log/Phone_Vivo/xml/case02_company_report_cycle_0.xml' is not exist, create it.
+09-29 14:15:51.903 base_testcase.java testcases.case02_company_report 145  - Let phone back to home view.

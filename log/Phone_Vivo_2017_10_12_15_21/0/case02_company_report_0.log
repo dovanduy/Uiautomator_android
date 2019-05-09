@@ -1,0 +1,34 @@
+10-12 15:20:02.937 base_testcase.java testcases.case02_company_report 123  - Enter Testcase : case02_company_report
+10-12 15:20:03.020 module.java Phone.Phone_Vivo 1299 - Try to Wake up the phone.
+10-12 15:20:04.021 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-12 15:20:04.023 base_testcase.java testcases.case02_company_report 125  - The Phone is Phone_Vivo
+10-12 15:20:04.025 case02_company_report.java testcases.case02_company_report 21   - Now is running function '企业报告_test'
+10-12 15:20:04.027 base_phone.java Phone.Phone_Vivo 76   - ******** 企业报告测试 ********
+10-12 15:20:04.029 module.java Modules.Videos 59   - apk name is '万象信用'
+10-12 15:20:04.142 module.java Modules.Videos 1210 - Try to scroll to the text of '万象信用'
+10-12 15:20:04.212 module.java Modules.Videos 63   - find is true
+10-12 15:20:04.213 module.java Modules.Videos 77   - Click open apk
+10-12 15:20:04.533 module.java Modules.Videos 176  - Try to click a UiObject.
+10-12 15:20:09.534 module.java Modules.Videos 107  - Wait for 5 seconds.
+10-12 15:20:09.619 module.java Modules.Videos 1223 - Try get packagename of this view :com.ccx.zhengxin
+10-12 15:20:09.620 module.java Modules.Videos 93   - The package name is correct. this apk is running correctly.
+10-12 15:20:13.264 module.java Modules.Videos 139  - Try to click the button 'first_page' 
+10-12 15:20:14.267 module.java Modules.Videos 107  - Wait for 1 seconds.
+10-12 15:20:14.713 module.java Modules.Videos 139  - Try to click the button 'company' 
+10-12 15:20:15.715 module.java Modules.Videos 107  - Wait for 1 seconds.
+10-12 15:20:18.603 module.java Modules.Videos 196  - Try to write '中诚信征信' in button :search
+10-12 15:20:18.673 module.java Modules.Videos 1167 - Try to check if the button 'match1' is exist, and result is false.
+10-12 15:20:18.675 base_phone.java Phone.Phone_Vivo 91   - 检测模糊匹配项失败
+10-12 15:20:18.677 base_testcase.java testcases.case02_company_report 75   - This is run error.
+10-12 15:20:18.679 base_testcase.java testcases.case02_company_report 233  - Screenshot-->./Phone_Vivo/0/case02_company_report_0.png
+10-12 15:20:19.093 UiDevice.java uiautomatorrpc.UiDevice 321  - @@@@@@@ result is : /data/local/tmp/Screenshot.png
+10-12 15:20:19.186 UiDevice.java uiautomatorrpc.UiDevice 325  - @@@@@@@@ adb command is : adb  -s U4J7Y5BANV8POF95 pull /data/local/tmp/Screenshot.png "./log/Phone_Vivo/0/\case02_company_report_0.png"
+10-12 15:20:20.309 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-12 15:20:20.309 base_testcase.java testcases.case02_company_report 239  - Screenshot saved.
+10-12 15:20:20.363 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+10-12 15:20:21.365 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-12 15:20:21.420 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+10-12 15:20:22.422 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-12 15:20:23.092 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+10-12 15:20:24.094 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+10-12 15:20:24.280 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).

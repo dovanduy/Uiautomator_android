@@ -1,0 +1,31 @@
+09-01 16:02:13.846 base_testcase.java testcases.case01_download 123  - Enter Testcase : case01_download
+09-01 16:02:14.039 module.java Phone.Phone_Vivo 1321 - Try to Wake up the phone.
+09-01 16:02:15.045 module.java Phone.Phone_Vivo 129  - Wait for 1 seconds.
+09-01 16:02:15.439 module.java Phone.Phone_Vivo 1341 - Try to swipe.
+09-01 16:02:16.447 module.java Phone.Phone_Vivo 129  - Wait for 1 seconds.
+09-01 16:02:16.448 base_testcase.java testcases.case01_download 127  - The Phone is Phone_Vivo
+09-01 16:02:16.449 case01_download.java testcases.case01_download 21   - Now is running function '版本升级_test'
+09-01 16:02:16.450 base_phone.java Phone.Phone_Vivo 45   - ******** 版本升级测试 ********
+09-01 16:02:16.452 module.java Modules.Videos 59   - apk name is '万象信用'
+09-01 16:02:16.633 module.java Modules.Videos 63   - find is true
+09-01 16:02:16.635 module.java Modules.Videos 96   - Click open apk
+09-01 16:02:17.396 module.java Modules.Videos 198  - Try to click a UiObject.
+09-01 16:02:22.407 module.java Modules.Videos 129  - Wait for 5 seconds.
+09-01 16:02:22.932 module.java Modules.Videos 1245 - Try get packagename of this view :com.ccx.zhengxin
+09-01 16:02:22.932 module.java Modules.Videos 115  - The package name is correct. this apk is running correctly.
+09-01 16:02:22.996 module.java Modules.Videos 1189 - Try to check if the button 'upload' is exist, and result is true.
+09-01 16:02:25.247 module.java Modules.Videos 161  - Try to click the button 'upload' 
+09-01 16:02:40.261 module.java Modules.Videos 129  - Wait for 15 seconds.
+09-01 16:02:40.264 base_testcase.java testcases.case01_download 171  - case01_download : file './log/Phone_Vivo/xml/case01_download_cycle_0.xml' is not exist, create it.
+09-01 16:02:40.278 base_testcase.java testcases.case01_download 147  - Let phone back to home view.
+09-01 16:02:42.282 module.java Phone.Phone_Vivo 129  - Wait for 2 seconds.
+09-01 16:02:42.314 module.java Phone.Phone_Vivo 1269 - Try to press back(use keycode).
+09-01 16:02:43.317 module.java Phone.Phone_Vivo 129  - Wait for 1 seconds.
+09-01 16:02:43.983 module.java Phone.Phone_Vivo 1269 - Try to press back(use keycode).
+09-01 16:02:44.989 module.java Phone.Phone_Vivo 129  - Wait for 1 seconds.
+09-01 16:02:45.376 module.java Phone.Phone_Vivo 1245 - Try get packagename of this view :com.ccx.zhengxin
+09-01 16:02:45.377 base_testcase.java testcases.case01_download 153  - ERROR: press BACK cannot exit.
+09-01 16:02:45.378 base_testcase.java testcases.case01_download 110  - This is ending error.
+09-01 16:02:45.380 test1.java Test.test1 197  - TestCase : 'case01_download' is SUCCESS!
+09-01 16:02:45.381 test1.java Test.test1 198  - TEST_TOP : case01_download set_times is 1 case_times is 1
+09-01 16:02:45.382 test1.java Test.test1 200  - TEST_TOP : case 'case01_download' all finished. now gen html file.

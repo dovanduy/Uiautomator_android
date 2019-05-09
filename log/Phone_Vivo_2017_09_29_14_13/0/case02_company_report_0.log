@@ -1,0 +1,47 @@
+09-05 11:40:04.019 base_testcase.java testcases.case02_company_report 123  - Enter Testcase : case02_company_report
+09-05 11:40:04.105 module.java Phone.Phone_Vivo 1299 - Try to Wake up the phone.
+09-05 11:40:05.107 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-05 11:40:05.108 base_testcase.java testcases.case02_company_report 125  - The Phone is Phone_Vivo
+09-05 11:40:05.109 case02_company_report.java testcases.case02_company_report 21   - Now is running function '企业报告_test'
+09-05 11:40:05.110 base_phone.java Phone.Phone_Vivo 76   - ******** 企业报告测试 ********
+09-05 11:40:05.113 module.java Modules.Videos 59   - apk name is '万象信用'
+09-05 11:40:05.223 module.java Modules.Videos 1210 - Try to scroll to the text of '万象信用'
+09-05 11:40:05.303 module.java Modules.Videos 63   - find is true
+09-05 11:40:05.304 module.java Modules.Videos 77   - Click open apk
+09-05 11:40:05.613 module.java Modules.Videos 176  - Try to click a UiObject.
+09-05 11:40:10.615 module.java Modules.Videos 107  - Wait for 5 seconds.
+09-05 11:40:11.420 module.java Modules.Videos 1223 - Try get packagename of this view :com.ccx.zhengxin
+09-05 11:40:11.422 module.java Modules.Videos 93   - The package name is correct. this apk is running correctly.
+09-05 11:40:13.585 module.java Modules.Videos 139  - Try to click the button 'first_page' 
+09-05 11:40:14.587 module.java Modules.Videos 107  - Wait for 1 seconds.
+09-05 11:40:15.053 module.java Modules.Videos 139  - Try to click the button 'company' 
+09-05 11:40:16.054 module.java Modules.Videos 107  - Wait for 1 seconds.
+09-05 11:40:18.954 module.java Modules.Videos 196  - Try to write '中诚信征信' in button :search
+09-05 11:40:19.043 module.java Modules.Videos 1167 - Try to check if the button 'match1' is exist, and result is true.
+09-05 11:40:19.314 module.java Modules.Videos 139  - Try to click the button 'match1' 
+09-05 11:40:24.315 module.java Modules.Videos 107  - Wait for 5 seconds.
+09-05 11:40:24.603 module.java Modules.Videos 139  - Try to click the button 'register' 
+09-05 11:40:26.605 module.java Modules.Videos 107  - Wait for 2 seconds.
+09-05 11:40:26.647 module.java Modules.Videos 1167 - Try to check if the button 'credit_code' is exist, and result is true.
+09-05 11:40:26.648 base_phone.java Phone.Phone_Vivo 85   - 企业报告查询成功
+09-05 11:40:26.651 base_testcase.java testcases.case02_company_report 169  - case02_company_report : file './log/Phone_Vivo/xml/case02_company_report_cycle_0.xml' is not exist, create it.
+09-05 11:40:26.666 base_testcase.java testcases.case02_company_report 145  - Let phone back to home view.
+09-05 11:40:28.667 module.java Phone.Phone_Vivo 107  - Wait for 2 seconds.
+09-05 11:40:28.726 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+09-05 11:40:29.729 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-05 11:40:29.777 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+09-05 11:40:30.779 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-05 11:40:30.824 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+09-05 11:40:31.826 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-05 11:40:32.210 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+09-05 11:40:33.211 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-05 11:40:33.650 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+09-05 11:40:34.651 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-05 11:40:34.676 module.java Phone.Phone_Vivo 1247 - Try to press back(use keycode).
+09-05 11:40:35.678 module.java Phone.Phone_Vivo 107  - Wait for 1 seconds.
+09-05 11:40:35.743 module.java Phone.Phone_Vivo 1223 - Try get packagename of this view :com.bbk.launcher2
+09-05 11:40:35.743 base_testcase.java testcases.case02_company_report 151  - ERROR: press BACK cannot exit.
+09-05 11:40:35.744 base_testcase.java testcases.case02_company_report 110  - This is ending error.
+09-05 11:40:35.744 test1.java Test.test1 182  - TestCase : 'case02_company_report' is SUCCESS!
+09-05 11:40:35.745 test1.java Test.test1 183  - TEST_TOP : case02_company_report set_times is 1 case_times is 1
+09-05 11:40:35.745 test1.java Test.test1 185  - TEST_TOP : case 'case02_company_report' all finished. now gen html file.
